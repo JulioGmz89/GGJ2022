@@ -5,6 +5,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
+    public GameObject player;
     public Transform respawnPoint;
     public float speed = 5;
     private Vector2 movementInput;
@@ -12,7 +13,15 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        transform.Translate(new Vector3(movementInput.x, 0, movementInput.y) * speed * Time.deltaTime);
+        if (player.tag == "Alive" || player.tag == "Dead")
+        {
+            transform.Translate(new Vector3(movementInput.x, 0, movementInput.y) * speed * Time.deltaTime);
+        }
+
+        else if (player.tag == "God")
+        {
+            transform.Translate(new Vector3(0, 0, movementInput.y) * speed * Time.deltaTime, Space.World);
+        }
 
 
         if (isDefeated)

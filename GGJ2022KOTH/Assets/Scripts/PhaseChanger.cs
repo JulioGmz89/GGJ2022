@@ -5,38 +5,47 @@ using UnityEngine;
 public class PhaseChanger : MonoBehaviour
 {
     public GameObject player;
-    // Start is called before the first frame update
+    public GameObject vivo;
+    public GameObject muerto;
+    public GameObject godMode;
+    int RandN;
+
+    void Awake()
+    {
+        RandN = Random.Range(1, 50);
+        if (RandN < 25)
+        {
+            player.tag = "Alive";
+        }
+        else if (RandN > 25)
+        {
+            player.tag = "Dead";
+        }
+    }
     void Start()
     {
-        player.tag = "Alive";
+        Physics.IgnoreLayerCollision(6, 6, true);
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (transform.gameObject.tag == "Alive")
+        if (player.tag == "Alive")
         {
-            Debug.Log("Player is in Alive state");
+            vivo.SetActive(true);
+            muerto.SetActive(false);
+            godMode.SetActive(false);
         }
-        else
+        else if (player.tag == "Dead")
         {
-            Debug.Log("Player is in Dead state");
+            vivo.SetActive(false);
+            muerto.SetActive(true);
+            godMode.SetActive(false);
         }
-    }
-
-    private void FixedUpdate()
-    {
-        if (Input.GetKey(KeyCode.LeftShift))
+        else if (player.tag == "God")
         {
-            if (transform.gameObject.tag == "Alive")
-            {
-                transform.gameObject.tag = "Dead";
-            }
-            else if (transform.gameObject.tag == "Dead")
-            {
-                transform.gameObject.tag = "Alive";
-            }
+            vivo.SetActive(false);
+            muerto.SetActive(false);
+            godMode.SetActive(true);
         }
     }
-
 }

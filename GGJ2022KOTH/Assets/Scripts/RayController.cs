@@ -8,9 +8,11 @@ public class RayController : MonoBehaviour
     {
         StartCoroutine(DestroyRayAfterTime());
     }
+
     IEnumerator DestroyRayAfterTime()
     {
         yield return new WaitForSeconds(1f);
         Destroy(gameObject);
+        Destroy(transform.parent.gameObject);
     }
 }
