@@ -12,6 +12,12 @@ public class PlayerController : MonoBehaviour
     private Vector2 movementInput;
     public float Score = 0;
     public bool isDefeated = false;
+    public Animator alivePlayerAnim;
+    public Animator deadPlayerAnim;
+    void Start()
+    {
+        Time.timeScale = 1;
+    }
     private void Update()
     {
         PlayerMovement();
@@ -28,7 +34,31 @@ public class PlayerController : MonoBehaviour
     {
         if (player.tag == "Alive" || player.tag == "Dead")
         {
-            transform.Translate(new Vector3(movementInput.x, 0, movementInput.y) * speed * Time.deltaTime);
+            transform.Translate(new Vector3(movementInput.x, 0, movementInput.y) * speed * Time.deltaTime, Space.World);
+
+
+            Vector3 lookDirection = new Vector3(movementInput.x, 0, movementInput.y);
+            Quaternion lookRotation = Quaternion.LookRotation(lookDirection, Vector3.up);
+
+            if (movementInput.x != 0 || movementInput.y != 0)
+            {
+
+                transform.rotation = Quaternion.RotateTowards(lookRotation, transform.rotation, 5 * Time.deltaTime);
+                if (player.tag == "Alive")
+                {
+                    alivePlayerAnim.SetBool("isRunning", true);
+                }
+                else if (player.tag == "Dead")
+                {
+                    deadPlayerAnim.SetBool("isRunning", true);
+                }
+
+            }
+            else
+            {
+                alivePlayerAnim.SetBool("isRunning", false);
+                deadPlayerAnim.SetBool("isRunning", false);
+            }
         }
 
         else if (player.tag == "God")

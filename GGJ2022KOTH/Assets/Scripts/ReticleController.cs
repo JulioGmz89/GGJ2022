@@ -10,7 +10,7 @@ public class ReticleController : MonoBehaviour
 
     private void Update()
     {
-        transform.Translate(new Vector3(movementInput.x, movementInput.y, 0) * speed * Time.deltaTime);
+        transform.Translate(new Vector3(movementInput.x, 0, movementInput.y) * speed * Time.deltaTime, Space.World);
     }
 
     public void AimReticle(InputAction.CallbackContext ctx) => movementInput = ctx.ReadValue<Vector2>();

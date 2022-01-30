@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerInputManagerScript : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class PlayerInputManagerScript : MonoBehaviour
 
     public Text winText;
     public GameObject playerWinText;
+    public GameObject returnButton;
 
     void OnPlayerJoined(PlayerInput playerInput)
     {
@@ -43,7 +45,6 @@ public class PlayerInputManagerScript : MonoBehaviour
             scoreText[playerInput.playerIndex].SetActive(true);
         }
 
-        playerScore[playerInput.playerIndex].text = playerInput.gameObject.GetComponent<PlayerDetails>().score.ToString();
     }
 
 
@@ -78,5 +79,10 @@ public class PlayerInputManagerScript : MonoBehaviour
         playerWinText.SetActive(true);
         winText.text = "Player " + playerNumber + " wins";
         Time.timeScale = 0f;
+        returnButton.SetActive(true);
+    }
+    public void Return()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 }
