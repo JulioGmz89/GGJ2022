@@ -138,7 +138,7 @@ GameObject:
   - component: {fileID: 2663807}
   m_Layer: 0
   m_Name: Exorcise (90)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -246,7 +246,7 @@ GameObject:
   - component: {fileID: 6824026}
   m_Layer: 0
   m_Name: Exorcise (57)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -354,7 +354,7 @@ GameObject:
   - component: {fileID: 14860183}
   m_Layer: 0
   m_Name: Spikes (2)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -462,7 +462,7 @@ GameObject:
   - component: {fileID: 31819137}
   m_Layer: 0
   m_Name: Spikes (64)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -555,6 +555,86 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 31819135}
   m_Mesh: {fileID: -9113646534211321542, guid: d0d1a0c44d4850640b1dcb78f9557d37, type: 3}
+--- !u!1 &33645847
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 33645848}
+  - component: {fileID: 33645850}
+  - component: {fileID: 33645849}
+  m_Layer: 5
+  m_Name: Player 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &33645848
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33645847}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1694115786}
+  m_Father: {fileID: 1740746781}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -772, y: 457}
+  m_SizeDelta: {x: 228.524, y: 58.8689}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &33645849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33645847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 40
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 50
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Player 1:'
+--- !u!222 &33645850
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33645847}
+  m_CullTransparentMesh: 1
 --- !u!1 &48602652
 GameObject:
   m_ObjectHideFlags: 0
@@ -570,7 +650,7 @@ GameObject:
   - component: {fileID: 48602654}
   m_Layer: 0
   m_Name: Exorcise (11)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -678,7 +758,7 @@ GameObject:
   - component: {fileID: 49875794}
   m_Layer: 0
   m_Name: Exorcise (42)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -786,7 +866,7 @@ GameObject:
   - component: {fileID: 65146705}
   m_Layer: 0
   m_Name: Exorcise (41)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -894,7 +974,7 @@ GameObject:
   - component: {fileID: 74844061}
   m_Layer: 0
   m_Name: Spikes (17)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1002,7 +1082,7 @@ GameObject:
   - component: {fileID: 79230971}
   m_Layer: 0
   m_Name: Spikes (60)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1110,7 +1190,7 @@ GameObject:
   - component: {fileID: 82636544}
   m_Layer: 0
   m_Name: Exorcise (47)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1218,7 +1298,7 @@ GameObject:
   - component: {fileID: 84548879}
   m_Layer: 0
   m_Name: Exorcise (65)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1326,7 +1406,7 @@ GameObject:
   - component: {fileID: 85166295}
   m_Layer: 0
   m_Name: Spikes (58)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1434,7 +1514,7 @@ GameObject:
   - component: {fileID: 89492205}
   m_Layer: 0
   m_Name: Spikes (38)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1542,7 +1622,7 @@ GameObject:
   - component: {fileID: 91537326}
   m_Layer: 0
   m_Name: Exorcise (75)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1650,7 +1730,7 @@ GameObject:
   - component: {fileID: 108257065}
   m_Layer: 0
   m_Name: Spikes (67)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1758,7 +1838,7 @@ GameObject:
   - component: {fileID: 114333748}
   m_Layer: 0
   m_Name: Spikes (56)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1866,7 +1946,7 @@ GameObject:
   - component: {fileID: 119747476}
   m_Layer: 0
   m_Name: Spikes (82)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1974,7 +2054,7 @@ GameObject:
   - component: {fileID: 126644048}
   m_Layer: 0
   m_Name: Exorcise (63)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2082,7 +2162,7 @@ GameObject:
   - component: {fileID: 127971101}
   m_Layer: 0
   m_Name: Exorcise (64)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2190,7 +2270,7 @@ GameObject:
   - component: {fileID: 141443027}
   m_Layer: 0
   m_Name: Exorcise (87)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2298,7 +2378,7 @@ GameObject:
   - component: {fileID: 147495225}
   m_Layer: 0
   m_Name: Spikes (54)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2406,7 +2486,7 @@ GameObject:
   - component: {fileID: 154663669}
   m_Layer: 0
   m_Name: Spikes (80)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2514,7 +2594,7 @@ GameObject:
   - component: {fileID: 170178087}
   m_Layer: 0
   m_Name: Spikes (5)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2622,7 +2702,7 @@ GameObject:
   - component: {fileID: 171225162}
   m_Layer: 0
   m_Name: Spikes (63)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2730,7 +2810,7 @@ GameObject:
   - component: {fileID: 171369783}
   m_Layer: 0
   m_Name: Exorcise
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2838,7 +2918,7 @@ GameObject:
   - component: {fileID: 187607415}
   m_Layer: 0
   m_Name: Spikes (11)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2946,7 +3026,7 @@ GameObject:
   - component: {fileID: 189887941}
   m_Layer: 0
   m_Name: Exorcise (61)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3054,7 +3134,7 @@ GameObject:
   - component: {fileID: 201190947}
   m_Layer: 0
   m_Name: Spikes (53)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3162,7 +3242,7 @@ GameObject:
   - component: {fileID: 220546808}
   m_Layer: 0
   m_Name: Exorcise (2)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3270,7 +3350,7 @@ GameObject:
   - component: {fileID: 226891286}
   m_Layer: 0
   m_Name: Exorcise (21)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3511,7 +3591,7 @@ GameObject:
   - component: {fileID: 278414664}
   m_Layer: 0
   m_Name: Exorcise (77)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3619,7 +3699,7 @@ GameObject:
   - component: {fileID: 280682561}
   m_Layer: 0
   m_Name: Exorcise (35)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3727,7 +3807,7 @@ GameObject:
   - component: {fileID: 288863748}
   m_Layer: 0
   m_Name: Spikes (52)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3835,7 +3915,7 @@ GameObject:
   - component: {fileID: 300583947}
   m_Layer: 0
   m_Name: Spikes (6)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3943,7 +4023,7 @@ GameObject:
   - component: {fileID: 303969325}
   m_Layer: 0
   m_Name: Exorcise (80)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4146,7 +4226,7 @@ GameObject:
   - component: {fileID: 345942350}
   m_Layer: 0
   m_Name: Spikes (48)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4254,7 +4334,7 @@ GameObject:
   - component: {fileID: 347947654}
   m_Layer: 0
   m_Name: Exorcise (23)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4347,6 +4427,85 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 347947652}
   m_Mesh: {fileID: -7582488396951073625, guid: 1c9944ca97219f74cb22bb7baf3a0762, type: 3}
+--- !u!1 &364805061
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 364805062}
+  - component: {fileID: 364805064}
+  - component: {fileID: 364805063}
+  m_Layer: 5
+  m_Name: Score 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &364805062
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364805061}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1824251474}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 204.51, y: 0}
+  m_SizeDelta: {x: 306.2491, y: 57.4217}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &364805063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364805061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 40
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 4
+    m_MaxSize: 50
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: New Text
+--- !u!222 &364805064
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364805061}
+  m_CullTransparentMesh: 1
 --- !u!1 &365854255
 GameObject:
   m_ObjectHideFlags: 0
@@ -4362,7 +4521,7 @@ GameObject:
   - component: {fileID: 365854257}
   m_Layer: 0
   m_Name: Exorcise (76)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4470,7 +4629,7 @@ GameObject:
   - component: {fileID: 366522881}
   m_Layer: 0
   m_Name: Spikes (30)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4578,7 +4737,7 @@ GameObject:
   - component: {fileID: 392162383}
   m_Layer: 0
   m_Name: Exorcise (12)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4690,7 +4849,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &393341572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4800,7 +4959,7 @@ GameObject:
   - component: {fileID: 411883601}
   m_Layer: 0
   m_Name: Exorcise (6)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4908,7 +5067,7 @@ GameObject:
   - component: {fileID: 431627455}
   m_Layer: 0
   m_Name: Spikes (10)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5016,7 +5175,7 @@ GameObject:
   - component: {fileID: 434225023}
   m_Layer: 0
   m_Name: Exorcise (81)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5124,7 +5283,7 @@ GameObject:
   - component: {fileID: 449714127}
   m_Layer: 0
   m_Name: Spikes (25)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5217,6 +5376,85 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 449714125}
   m_Mesh: {fileID: -9113646534211321542, guid: d0d1a0c44d4850640b1dcb78f9557d37, type: 3}
+--- !u!1 &451463548
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 451463549}
+  - component: {fileID: 451463551}
+  - component: {fileID: 451463550}
+  m_Layer: 5
+  m_Name: Score 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &451463549
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 451463548}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1617547705}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 204.51, y: 0}
+  m_SizeDelta: {x: 306.2491, y: 57.4217}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &451463550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 451463548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 40
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 4
+    m_MaxSize: 50
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: New Text
+--- !u!222 &451463551
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 451463548}
+  m_CullTransparentMesh: 1
 --- !u!1 &451533924
 GameObject:
   m_ObjectHideFlags: 0
@@ -5311,7 +5549,7 @@ GameObject:
   - component: {fileID: 457142905}
   m_Layer: 0
   m_Name: Spikes (27)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5419,7 +5657,7 @@ GameObject:
   - component: {fileID: 457351939}
   m_Layer: 0
   m_Name: Exorcise (7)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5527,7 +5765,7 @@ GameObject:
   - component: {fileID: 470532468}
   m_Layer: 0
   m_Name: Exorcise (27)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5635,7 +5873,7 @@ GameObject:
   - component: {fileID: 471109898}
   m_Layer: 0
   m_Name: Spikes
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5743,7 +5981,7 @@ GameObject:
   - component: {fileID: 478505835}
   m_Layer: 0
   m_Name: Exorcise (73)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5851,7 +6089,7 @@ GameObject:
   - component: {fileID: 503411800}
   m_Layer: 0
   m_Name: Exorcise (33)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6076,7 +6314,7 @@ GameObject:
   - component: {fileID: 509978419}
   m_Layer: 0
   m_Name: Exorcise (44)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6184,7 +6422,7 @@ GameObject:
   - component: {fileID: 522704336}
   m_Layer: 0
   m_Name: Exorcise (29)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6292,7 +6530,7 @@ GameObject:
   - component: {fileID: 536503757}
   m_Layer: 0
   m_Name: Exorcise (84)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6493,7 +6731,7 @@ GameObject:
   - component: {fileID: 558825332}
   m_Layer: 0
   m_Name: Spikes (32)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6601,7 +6839,7 @@ GameObject:
   - component: {fileID: 565110745}
   m_Layer: 0
   m_Name: Exorcise (17)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6709,7 +6947,7 @@ GameObject:
   - component: {fileID: 579449292}
   m_Layer: 0
   m_Name: Exorcise (58)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6845,6 +7083,64 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &614040311
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 614040313}
+  - component: {fileID: 614040312}
+  - component: {fileID: 614040314}
+  m_Layer: 0
+  m_Name: GodZone
+  m_TagString: GodZone
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &614040312
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 614040311}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.2, y: 1, z: 14.4}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &614040313
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 614040311}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 24.56, y: 0, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &614040314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 614040311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7c8c61a5f2a4064ea363172d88791a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerInput: {fileID: 1413749723}
 --- !u!1 &617639127
 GameObject:
   m_ObjectHideFlags: 0
@@ -6860,7 +7156,7 @@ GameObject:
   - component: {fileID: 617639129}
   m_Layer: 0
   m_Name: Spikes (79)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6968,7 +7264,7 @@ GameObject:
   - component: {fileID: 665828030}
   m_Layer: 0
   m_Name: Spikes (36)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7076,7 +7372,7 @@ GameObject:
   - component: {fileID: 677099801}
   m_Layer: 0
   m_Name: Spikes (84)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7184,7 +7480,7 @@ GameObject:
   - component: {fileID: 722734198}
   m_Layer: 0
   m_Name: Exorcise (9)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7292,7 +7588,7 @@ GameObject:
   - component: {fileID: 737115586}
   m_Layer: 0
   m_Name: Exorcise (13)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7410,9 +7706,9 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 755561493}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 250455578}
   - {fileID: 1631589263}
@@ -7421,7 +7717,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -960, y: -540}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &755561495
@@ -7477,7 +7773,7 @@ GameObject:
   - component: {fileID: 771561221}
   m_Layer: 0
   m_Name: Spikes (44)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7585,7 +7881,7 @@ GameObject:
   - component: {fileID: 788777564}
   m_Layer: 0
   m_Name: Exorcise (59)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7693,7 +7989,7 @@ GameObject:
   - component: {fileID: 792200769}
   m_Layer: 0
   m_Name: Exorcise (83)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7801,7 +8097,7 @@ GameObject:
   - component: {fileID: 796527822}
   m_Layer: 0
   m_Name: Spikes (62)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7909,7 +8205,7 @@ GameObject:
   - component: {fileID: 804814863}
   m_Layer: 0
   m_Name: Spikes (19)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8017,7 +8313,7 @@ GameObject:
   - component: {fileID: 848374162}
   m_Layer: 0
   m_Name: Spikes (78)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8125,7 +8421,7 @@ GameObject:
   - component: {fileID: 856990247}
   m_Layer: 0
   m_Name: Exorcise (72)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8233,7 +8529,7 @@ GameObject:
   - component: {fileID: 862867241}
   m_Layer: 0
   m_Name: Spikes (35)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8341,7 +8637,7 @@ GameObject:
   - component: {fileID: 875153025}
   m_Layer: 0
   m_Name: Exorcise (38)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8449,7 +8745,7 @@ GameObject:
   - component: {fileID: 888253544}
   m_Layer: 0
   m_Name: Spikes (61)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8542,6 +8838,86 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 888253542}
   m_Mesh: {fileID: -9113646534211321542, guid: d0d1a0c44d4850640b1dcb78f9557d37, type: 3}
+--- !u!1 &901157427
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 901157428}
+  - component: {fileID: 901157430}
+  - component: {fileID: 901157429}
+  m_Layer: 5
+  m_Name: Player 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &901157428
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 901157427}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1503455391}
+  m_Father: {fileID: 1740746781}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -72, y: 457}
+  m_SizeDelta: {x: 228.524, y: 58.8689}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &901157429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 901157427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 40
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 50
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Player 3:'
+--- !u!222 &901157430
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 901157427}
+  m_CullTransparentMesh: 1
 --- !u!1 &917339086
 GameObject:
   m_ObjectHideFlags: 0
@@ -8652,7 +9028,7 @@ GameObject:
   - component: {fileID: 931299362}
   m_Layer: 0
   m_Name: Spikes (28)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8760,7 +9136,7 @@ GameObject:
   - component: {fileID: 931437879}
   m_Layer: 0
   m_Name: Exorcise (39)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8868,7 +9244,7 @@ GameObject:
   - component: {fileID: 959716787}
   m_Layer: 0
   m_Name: Spikes (9)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9071,7 +9447,7 @@ GameObject:
   - component: {fileID: 962600174}
   m_Layer: 0
   m_Name: Spikes (41)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9179,7 +9555,7 @@ GameObject:
   - component: {fileID: 964729819}
   m_Layer: 0
   m_Name: Spikes (24)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9287,7 +9663,7 @@ GameObject:
   - component: {fileID: 966638496}
   m_Layer: 0
   m_Name: Exorcise (43)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9395,7 +9771,7 @@ GameObject:
   - component: {fileID: 969327492}
   m_Layer: 0
   m_Name: Exorcise (30)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9503,7 +9879,7 @@ GameObject:
   - component: {fileID: 973116440}
   m_Layer: 0
   m_Name: Spikes (23)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9611,7 +9987,7 @@ GameObject:
   - component: {fileID: 975303012}
   m_Layer: 0
   m_Name: Spikes (85)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9719,7 +10095,7 @@ GameObject:
   - component: {fileID: 994051024}
   m_Layer: 0
   m_Name: Exorcise (20)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9827,7 +10203,7 @@ GameObject:
   - component: {fileID: 996379050}
   m_Layer: 0
   m_Name: Exorcise (26)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9935,7 +10311,7 @@ GameObject:
   - component: {fileID: 1014989176}
   m_Layer: 0
   m_Name: Spikes (4)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10043,7 +10419,7 @@ GameObject:
   - component: {fileID: 1017647122}
   m_Layer: 0
   m_Name: Spikes (47)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10151,7 +10527,7 @@ GameObject:
   - component: {fileID: 1033414064}
   m_Layer: 0
   m_Name: Spikes (72)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10259,7 +10635,7 @@ GameObject:
   - component: {fileID: 1049649447}
   m_Layer: 0
   m_Name: Spikes (65)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10367,7 +10743,7 @@ GameObject:
   - component: {fileID: 1058929056}
   m_Layer: 0
   m_Name: Spikes (3)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10475,7 +10851,7 @@ GameObject:
   - component: {fileID: 1064033725}
   m_Layer: 0
   m_Name: Exorcise (51)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10583,7 +10959,7 @@ GameObject:
   - component: {fileID: 1075716138}
   m_Layer: 0
   m_Name: Spikes (21)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10786,7 +11162,7 @@ GameObject:
   - component: {fileID: 1117916150}
   m_Layer: 0
   m_Name: Exorcise (19)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10894,7 +11270,7 @@ GameObject:
   - component: {fileID: 1118007869}
   m_Layer: 0
   m_Name: Exorcise (53)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11083,7 +11459,7 @@ GameObject:
   - component: {fileID: 1153267691}
   m_Layer: 0
   m_Name: Spikes (34)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11191,7 +11567,7 @@ GameObject:
   - component: {fileID: 1153400357}
   m_Layer: 0
   m_Name: Exorcise (24)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11299,7 +11675,7 @@ GameObject:
   - component: {fileID: 1178200896}
   m_Layer: 0
   m_Name: Spikes (50)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11407,7 +11783,7 @@ GameObject:
   - component: {fileID: 1182708936}
   m_Layer: 0
   m_Name: Spikes (18)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11515,7 +11891,7 @@ GameObject:
   - component: {fileID: 1199357215}
   m_Layer: 0
   m_Name: Spikes (39)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11623,7 +11999,7 @@ GameObject:
   - component: {fileID: 1216428498}
   m_Layer: 0
   m_Name: Spikes (8)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11826,7 +12202,7 @@ GameObject:
   - component: {fileID: 1222622949}
   m_Layer: 0
   m_Name: Exorcise (74)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11934,7 +12310,7 @@ GameObject:
   - component: {fileID: 1223858623}
   m_Layer: 0
   m_Name: Spikes (81)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12042,7 +12418,7 @@ GameObject:
   - component: {fileID: 1248354886}
   m_Layer: 0
   m_Name: Exorcise (79)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12150,7 +12526,7 @@ GameObject:
   - component: {fileID: 1259346646}
   m_Layer: 0
   m_Name: Spikes (13)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12258,7 +12634,7 @@ GameObject:
   - component: {fileID: 1267150733}
   m_Layer: 0
   m_Name: Spikes (37)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12366,7 +12742,7 @@ GameObject:
   - component: {fileID: 1269885309}
   m_Layer: 0
   m_Name: Exorcise (14)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12474,7 +12850,7 @@ GameObject:
   - component: {fileID: 1273777212}
   m_Layer: 0
   m_Name: Exorcise (40)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12582,7 +12958,7 @@ GameObject:
   - component: {fileID: 1293389456}
   m_Layer: 0
   m_Name: Exorcise (66)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12690,7 +13066,7 @@ GameObject:
   - component: {fileID: 1318119691}
   m_Layer: 0
   m_Name: Spikes (42)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12798,7 +13174,7 @@ GameObject:
   - component: {fileID: 1375928156}
   m_Layer: 0
   m_Name: Spikes (74)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12906,7 +13282,7 @@ GameObject:
   - component: {fileID: 1406341782}
   m_Layer: 0
   m_Name: Spikes (31)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13014,7 +13390,7 @@ GameObject:
   - component: {fileID: 1408944037}
   m_Layer: 0
   m_Name: Exorcise (15)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13117,9 +13493,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1413749725}
   - component: {fileID: 1413749724}
+  - component: {fileID: 1413749726}
   m_Layer: 0
   m_Name: PlayerManager
-  m_TagString: Untagged
+  m_TagString: PlayerManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13158,8 +13535,7 @@ MonoBehaviour:
       m_SingletonActionBindings: []
       m_Flags: 0
     m_Reference: {fileID: 0}
-  m_PlayerPrefab: {fileID: 5094016789865000417, guid: 5cff71fe370cf5842abd14f5e3af44c6,
-    type: 3}
+  m_PlayerPrefab: {fileID: 5094016789865000417, guid: 5cff71fe370cf5842abd14f5e3af44c6, type: 3}
   m_SplitScreen: 0
   m_MaintainAspectRatioInSplitScreen: 0
   m_FixedNumberOfSplitScreens: -1
@@ -13183,6 +13559,33 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1413749726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413749723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 977cb8c87d96cba448ac4f1514f4c5ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnLocations:
+  - {fileID: 8466854099583695791, guid: d4395b5e5c272ef4b840330fb05f217a, type: 3}
+  - {fileID: 3036926106222190956, guid: 3d00d56008c25794bbab3a3a85d05e92, type: 3}
+  - {fileID: 8970185556369860204, guid: 165526fba6755af46bcef2fbfea15911, type: 3}
+  - {fileID: 7217434664727620599, guid: ebb33ca69414189438cf8696e73ae250, type: 3}
+  scoreText:
+  - {fileID: 33645847}
+  - {fileID: 1824251473}
+  - {fileID: 901157427}
+  - {fileID: 1617547704}
+  playerScore:
+  - {fileID: 1694115787}
+  - {fileID: 364805063}
+  - {fileID: 1503455392}
+  - {fileID: 451463550}
 --- !u!1 &1466806922
 GameObject:
   m_ObjectHideFlags: 0
@@ -13316,7 +13719,7 @@ GameObject:
   - component: {fileID: 1477996832}
   m_Layer: 0
   m_Name: Exorcise (31)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13424,7 +13827,7 @@ GameObject:
   - component: {fileID: 1493311326}
   m_Layer: 0
   m_Name: Exorcise (55)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13532,7 +13935,7 @@ GameObject:
   - component: {fileID: 1498537032}
   m_Layer: 0
   m_Name: Exorcise (48)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13640,7 +14043,7 @@ GameObject:
   - component: {fileID: 1501536308}
   m_Layer: 0
   m_Name: Exorcise (85)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13733,6 +14136,85 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1501536306}
   m_Mesh: {fileID: -7582488396951073625, guid: 1c9944ca97219f74cb22bb7baf3a0762, type: 3}
+--- !u!1 &1503455390
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1503455391}
+  - component: {fileID: 1503455393}
+  - component: {fileID: 1503455392}
+  m_Layer: 5
+  m_Name: Score 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1503455391
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1503455390}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 901157428}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 204.51, y: 0}
+  m_SizeDelta: {x: 306.2491, y: 57.4217}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1503455392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1503455390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 40
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 4
+    m_MaxSize: 50
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: New Text
+--- !u!222 &1503455393
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1503455390}
+  m_CullTransparentMesh: 1
 --- !u!1 &1507389078
 GameObject:
   m_ObjectHideFlags: 0
@@ -13748,7 +14230,7 @@ GameObject:
   - component: {fileID: 1507389080}
   m_Layer: 0
   m_Name: Exorcise (71)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13856,7 +14338,7 @@ GameObject:
   - component: {fileID: 1510000994}
   m_Layer: 0
   m_Name: Spikes (75)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13964,7 +14446,7 @@ GameObject:
   - component: {fileID: 1534404848}
   m_Layer: 0
   m_Name: Exorcise (25)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14072,7 +14554,7 @@ GameObject:
   - component: {fileID: 1535691116}
   m_Layer: 0
   m_Name: Spikes (86)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14180,7 +14662,7 @@ GameObject:
   - component: {fileID: 1550132419}
   m_Layer: 0
   m_Name: Exorcise (88)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14288,7 +14770,7 @@ GameObject:
   - component: {fileID: 1556570026}
   m_Layer: 0
   m_Name: Exorcise (60)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14586,7 +15068,7 @@ GameObject:
   - component: {fileID: 1571392543}
   m_Layer: 0
   m_Name: Exorcise (91)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14694,7 +15176,7 @@ GameObject:
   - component: {fileID: 1572025202}
   m_Layer: 0
   m_Name: Exorcise (4)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14802,7 +15284,7 @@ GameObject:
   - component: {fileID: 1573404474}
   m_Layer: 0
   m_Name: Spikes (71)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14910,7 +15392,7 @@ GameObject:
   - component: {fileID: 1580266177}
   m_Layer: 0
   m_Name: Exorcise (56)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15018,7 +15500,7 @@ GameObject:
   - component: {fileID: 1607143414}
   m_Layer: 0
   m_Name: Exorcise (28)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15111,6 +15593,86 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1607143412}
   m_Mesh: {fileID: -7582488396951073625, guid: 1c9944ca97219f74cb22bb7baf3a0762, type: 3}
+--- !u!1 &1617547704
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1617547705}
+  - component: {fileID: 1617547707}
+  - component: {fileID: 1617547706}
+  m_Layer: 5
+  m_Name: Player 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1617547705
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1617547704}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 451463549}
+  m_Father: {fileID: 1740746781}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 278, y: 457}
+  m_SizeDelta: {x: 228.524, y: 58.8689}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1617547706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1617547704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 40
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 50
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Player 4:'
+--- !u!222 &1617547707
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1617547704}
+  m_CullTransparentMesh: 1
 --- !u!1 &1630004780
 GameObject:
   m_ObjectHideFlags: 0
@@ -15126,7 +15688,7 @@ GameObject:
   - component: {fileID: 1630004782}
   m_Layer: 0
   m_Name: Spikes (49)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15367,7 +15929,7 @@ GameObject:
   - component: {fileID: 1642768080}
   m_Layer: 0
   m_Name: Spikes (59)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15475,7 +16037,7 @@ GameObject:
   - component: {fileID: 1650908975}
   m_Layer: 0
   m_Name: Exorcise (62)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15583,7 +16145,7 @@ GameObject:
   - component: {fileID: 1671306057}
   m_Layer: 0
   m_Name: Spikes (51)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15691,7 +16253,7 @@ GameObject:
   - component: {fileID: 1685459717}
   m_Layer: 0
   m_Name: Spikes (57)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15799,7 +16361,7 @@ GameObject:
   - component: {fileID: 1693615704}
   m_Layer: 0
   m_Name: Spikes (45)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15892,6 +16454,85 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1693615702}
   m_Mesh: {fileID: -9113646534211321542, guid: d0d1a0c44d4850640b1dcb78f9557d37, type: 3}
+--- !u!1 &1694115785
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1694115786}
+  - component: {fileID: 1694115788}
+  - component: {fileID: 1694115787}
+  m_Layer: 5
+  m_Name: Score 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1694115786
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694115785}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 33645848}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 204.51, y: 0}
+  m_SizeDelta: {x: 306.2491, y: 57.4217}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1694115787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694115785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 40
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 4
+    m_MaxSize: 50
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: New Text
+--- !u!222 &1694115788
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694115785}
+  m_CullTransparentMesh: 1
 --- !u!1 &1702057232
 GameObject:
   m_ObjectHideFlags: 0
@@ -15907,7 +16548,7 @@ GameObject:
   - component: {fileID: 1702057234}
   m_Layer: 0
   m_Name: Spikes (20)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16015,7 +16656,7 @@ GameObject:
   - component: {fileID: 1720990069}
   m_Layer: 0
   m_Name: Exorcise (67)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16108,6 +16749,109 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1720990067}
   m_Mesh: {fileID: -7582488396951073625, guid: 1c9944ca97219f74cb22bb7baf3a0762, type: 3}
+--- !u!1 &1740746777
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1740746781}
+  - component: {fileID: 1740746780}
+  - component: {fileID: 1740746779}
+  - component: {fileID: 1740746778}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1740746778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740746777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1740746779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740746777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1740746780
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740746777}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1740746781
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740746777}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 33645848}
+  - {fileID: 1824251474}
+  - {fileID: 901157428}
+  - {fileID: 1617547705}
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!1 &1743943199
 GameObject:
   m_ObjectHideFlags: 0
@@ -16123,7 +16867,7 @@ GameObject:
   - component: {fileID: 1743943201}
   m_Layer: 0
   m_Name: Spikes (69)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16231,7 +16975,7 @@ GameObject:
   - component: {fileID: 1752221909}
   m_Layer: 0
   m_Name: Spikes (83)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16357,28 +17101,17 @@ MonoBehaviour:
   m_MoveRepeatDelay: 0.5
   m_MoveRepeatRate: 0.1
   m_XRTrackingOrigin: {fileID: 0}
-  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018,
-    type: 3}
-  m_PointAction: {fileID: -1654692200621890270, guid: ca9f5fa95ffab41fb9a615ab714db018,
-    type: 3}
-  m_MoveAction: {fileID: -8784545083839296357, guid: ca9f5fa95ffab41fb9a615ab714db018,
-    type: 3}
-  m_SubmitAction: {fileID: 392368643174621059, guid: ca9f5fa95ffab41fb9a615ab714db018,
-    type: 3}
-  m_CancelAction: {fileID: 7727032971491509709, guid: ca9f5fa95ffab41fb9a615ab714db018,
-    type: 3}
-  m_LeftClickAction: {fileID: 3001919216989983466, guid: ca9f5fa95ffab41fb9a615ab714db018,
-    type: 3}
-  m_MiddleClickAction: {fileID: -2185481485913320682, guid: ca9f5fa95ffab41fb9a615ab714db018,
-    type: 3}
-  m_RightClickAction: {fileID: -4090225696740746782, guid: ca9f5fa95ffab41fb9a615ab714db018,
-    type: 3}
-  m_ScrollWheelAction: {fileID: 6240969308177333660, guid: ca9f5fa95ffab41fb9a615ab714db018,
-    type: 3}
-  m_TrackedDevicePositionAction: {fileID: 6564999863303420839, guid: ca9f5fa95ffab41fb9a615ab714db018,
-    type: 3}
-  m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018,
-    type: 3}
+  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_PointAction: {fileID: -1654692200621890270, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MoveAction: {fileID: -8784545083839296357, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_SubmitAction: {fileID: 392368643174621059, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_CancelAction: {fileID: 7727032971491509709, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_LeftClickAction: {fileID: 3001919216989983466, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MiddleClickAction: {fileID: -2185481485913320682, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_RightClickAction: {fileID: -4090225696740746782, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_ScrollWheelAction: {fileID: 6240969308177333660, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDevicePositionAction: {fileID: 6564999863303420839, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
   m_DeselectOnBackgroundClick: 1
   m_PointerBehavior: 0
 --- !u!114 &1762965596
@@ -16425,7 +17158,7 @@ GameObject:
   - component: {fileID: 1776710822}
   m_Layer: 0
   m_Name: Spikes (14)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16533,7 +17266,7 @@ GameObject:
   - component: {fileID: 1793376565}
   m_Layer: 0
   m_Name: Exorcise (54)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16641,7 +17374,7 @@ GameObject:
   - component: {fileID: 1797658840}
   m_Layer: 0
   m_Name: Exorcise (45)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16844,7 +17577,7 @@ GameObject:
   - component: {fileID: 1804100411}
   m_Layer: 0
   m_Name: Exorcise (34)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16937,6 +17670,86 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1804100409}
   m_Mesh: {fileID: -7582488396951073625, guid: 1c9944ca97219f74cb22bb7baf3a0762, type: 3}
+--- !u!1 &1824251473
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1824251474}
+  - component: {fileID: 1824251476}
+  - component: {fileID: 1824251475}
+  m_Layer: 5
+  m_Name: Player 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1824251474
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1824251473}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 364805062}
+  m_Father: {fileID: 1740746781}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -422, y: 457}
+  m_SizeDelta: {x: 228.524, y: 58.8689}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1824251475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1824251473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 40
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 50
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Player 2:'
+--- !u!222 &1824251476
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1824251473}
+  m_CullTransparentMesh: 1
 --- !u!1 &1830126306
 GameObject:
   m_ObjectHideFlags: 0
@@ -17047,7 +17860,7 @@ GameObject:
   - component: {fileID: 1834722744}
   m_Layer: 0
   m_Name: Spikes (7)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17155,7 +17968,7 @@ GameObject:
   - component: {fileID: 1859295834}
   m_Layer: 0
   m_Name: Exorcise (8)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17263,7 +18076,7 @@ GameObject:
   - component: {fileID: 1861714340}
   m_Layer: 0
   m_Name: Spikes (73)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17371,7 +18184,7 @@ GameObject:
   - component: {fileID: 1865851404}
   m_Layer: 0
   m_Name: Exorcise (82)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17479,7 +18292,7 @@ GameObject:
   - component: {fileID: 1875801172}
   m_Layer: 0
   m_Name: Exorcise (18)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17587,7 +18400,7 @@ GameObject:
   - component: {fileID: 1881790995}
   m_Layer: 0
   m_Name: Exorcise (10)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17885,7 +18698,7 @@ GameObject:
   - component: {fileID: 1905174737}
   m_Layer: 0
   m_Name: Exorcise (36)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17993,7 +18806,7 @@ GameObject:
   - component: {fileID: 1913629960}
   m_Layer: 0
   m_Name: Exorcise (69)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18101,7 +18914,7 @@ GameObject:
   - component: {fileID: 1926020327}
   m_Layer: 0
   m_Name: Spikes (55)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18209,7 +19022,7 @@ GameObject:
   - component: {fileID: 1933724906}
   m_Layer: 0
   m_Name: Spikes (26)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18317,7 +19130,7 @@ GameObject:
   - component: {fileID: 1948372584}
   m_Layer: 0
   m_Name: Spikes (68)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18425,7 +19238,7 @@ GameObject:
   - component: {fileID: 1949873991}
   m_Layer: 0
   m_Name: Exorcise (3)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18533,7 +19346,7 @@ GameObject:
   - component: {fileID: 1949977070}
   m_Layer: 0
   m_Name: Spikes (77)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18641,7 +19454,7 @@ GameObject:
   - component: {fileID: 1957462306}
   m_Layer: 0
   m_Name: Spikes (43)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18749,7 +19562,7 @@ GameObject:
   - component: {fileID: 1968428866}
   m_Layer: 0
   m_Name: Exorcise (5)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18857,7 +19670,7 @@ GameObject:
   - component: {fileID: 1981619180}
   m_Layer: 0
   m_Name: Spikes (70)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18965,7 +19778,7 @@ GameObject:
   - component: {fileID: 1983029372}
   m_Layer: 0
   m_Name: Spikes (15)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19073,7 +19886,7 @@ GameObject:
   - component: {fileID: 1988018845}
   m_Layer: 0
   m_Name: Spikes (76)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19181,7 +19994,7 @@ GameObject:
   - component: {fileID: 1992754997}
   m_Layer: 0
   m_Name: Exorcise (78)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19384,7 +20197,7 @@ GameObject:
   - component: {fileID: 2008452065}
   m_Layer: 0
   m_Name: Exorcise (1)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19571,7 +20384,7 @@ GameObject:
   - component: {fileID: 2020777632}
   m_Layer: 0
   m_Name: Exorcise (46)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19679,7 +20492,7 @@ GameObject:
   - component: {fileID: 2025011227}
   m_Layer: 0
   m_Name: Exorcise (37)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19787,7 +20600,7 @@ GameObject:
   - component: {fileID: 2029863186}
   m_Layer: 0
   m_Name: Exorcise (70)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19895,7 +20708,7 @@ GameObject:
   - component: {fileID: 2048068104}
   m_Layer: 0
   m_Name: Spikes (22)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20003,7 +20816,7 @@ GameObject:
   - component: {fileID: 2049725271}
   m_Layer: 0
   m_Name: Spikes (33)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20111,7 +20924,7 @@ GameObject:
   - component: {fileID: 2049771620}
   m_Layer: 0
   m_Name: Spikes (12)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20219,7 +21032,7 @@ GameObject:
   - component: {fileID: 2055615373}
   m_Layer: 0
   m_Name: Exorcise (32)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20327,7 +21140,7 @@ GameObject:
   - component: {fileID: 2068093462}
   m_Layer: 0
   m_Name: Exorcise (68)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20435,7 +21248,7 @@ GameObject:
   - component: {fileID: 2069255326}
   m_Layer: 0
   m_Name: Exorcise (49)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20543,7 +21356,7 @@ GameObject:
   - component: {fileID: 2071675587}
   m_Layer: 0
   m_Name: Spikes (87)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20651,7 +21464,7 @@ GameObject:
   - component: {fileID: 2075919982}
   m_Layer: 0
   m_Name: Exorcise (16)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20759,7 +21572,7 @@ GameObject:
   - component: {fileID: 2080692779}
   m_Layer: 0
   m_Name: Exorcise (22)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20867,7 +21680,7 @@ GameObject:
   - component: {fileID: 2096283706}
   m_Layer: 0
   m_Name: Spikes (66)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20967,65 +21780,57 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 6607070765967038739, guid: 29303aadb4530564196ef39a85abe711,
-        type: 3}
+    - target: {fileID: 6607070765967038739, guid: 29303aadb4530564196ef39a85abe711, type: 3}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6607070765967038739, guid: 29303aadb4530564196ef39a85abe711,
-        type: 3}
+    - target: {fileID: 6607070765967038739, guid: 29303aadb4530564196ef39a85abe711, type: 3}
       propertyPath: m_LocalPosition.x
       value: 24.55
       objectReference: {fileID: 0}
-    - target: {fileID: 6607070765967038739, guid: 29303aadb4530564196ef39a85abe711,
-        type: 3}
+    - target: {fileID: 6607070765967038739, guid: 29303aadb4530564196ef39a85abe711, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.48
       objectReference: {fileID: 0}
-    - target: {fileID: 6607070765967038739, guid: 29303aadb4530564196ef39a85abe711,
-        type: 3}
+    - target: {fileID: 6607070765967038739, guid: 29303aadb4530564196ef39a85abe711, type: 3}
       propertyPath: m_LocalPosition.z
       value: -0.26557526
       objectReference: {fileID: 0}
-    - target: {fileID: 6607070765967038739, guid: 29303aadb4530564196ef39a85abe711,
-        type: 3}
+    - target: {fileID: 6607070765967038739, guid: 29303aadb4530564196ef39a85abe711, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6607070765967038739, guid: 29303aadb4530564196ef39a85abe711,
-        type: 3}
+    - target: {fileID: 6607070765967038739, guid: 29303aadb4530564196ef39a85abe711, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6607070765967038739, guid: 29303aadb4530564196ef39a85abe711,
-        type: 3}
+    - target: {fileID: 6607070765967038739, guid: 29303aadb4530564196ef39a85abe711, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6607070765967038739, guid: 29303aadb4530564196ef39a85abe711,
-        type: 3}
+    - target: {fileID: 6607070765967038739, guid: 29303aadb4530564196ef39a85abe711, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6607070765967038739, guid: 29303aadb4530564196ef39a85abe711,
-        type: 3}
+    - target: {fileID: 6607070765967038739, guid: 29303aadb4530564196ef39a85abe711, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6607070765967038739, guid: 29303aadb4530564196ef39a85abe711,
-        type: 3}
+    - target: {fileID: 6607070765967038739, guid: 29303aadb4530564196ef39a85abe711, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6607070765967038739, guid: 29303aadb4530564196ef39a85abe711,
-        type: 3}
+    - target: {fileID: 6607070765967038739, guid: 29303aadb4530564196ef39a85abe711, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7404910877229112635, guid: 29303aadb4530564196ef39a85abe711,
-        type: 3}
+    - target: {fileID: 7404910877229112635, guid: 29303aadb4530564196ef39a85abe711, type: 3}
       propertyPath: m_Name
       value: GodPoweupTest
+      objectReference: {fileID: 0}
+    - target: {fileID: 7404910877229112635, guid: 29303aadb4530564196ef39a85abe711, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29303aadb4530564196ef39a85abe711, type: 3}
@@ -21044,7 +21849,7 @@ GameObject:
   - component: {fileID: 2105118032}
   m_Layer: 0
   m_Name: Exorcise (89)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21274,7 +22079,7 @@ GameObject:
   - component: {fileID: 2115636678}
   m_Layer: 0
   m_Name: Exorcise (50)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21382,7 +22187,7 @@ GameObject:
   - component: {fileID: 2120212760}
   m_Layer: 0
   m_Name: Spikes (16)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21490,7 +22295,7 @@ GameObject:
   - component: {fileID: 2122116458}
   m_Layer: 0
   m_Name: Spikes (40)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21598,7 +22403,7 @@ GameObject:
   - component: {fileID: 2125317987}
   m_Layer: 0
   m_Name: Exorcise (52)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21706,7 +22511,7 @@ GameObject:
   - component: {fileID: 2127006018}
   m_Layer: 0
   m_Name: Spikes (46)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21814,7 +22619,7 @@ GameObject:
   - component: {fileID: 2137701436}
   m_Layer: 0
   m_Name: Spikes (1)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21922,7 +22727,7 @@ GameObject:
   - component: {fileID: 2142731383}
   m_Layer: 0
   m_Name: Exorcise (86)
-  m_TagString: Untagged
+  m_TagString: AliveZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22030,7 +22835,7 @@ GameObject:
   - component: {fileID: 2142953809}
   m_Layer: 0
   m_Name: Spikes (29)
-  m_TagString: Untagged
+  m_TagString: DeadZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

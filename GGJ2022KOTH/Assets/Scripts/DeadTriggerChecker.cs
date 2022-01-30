@@ -13,18 +13,18 @@ public class DeadTriggerChecker : MonoBehaviour
         else if (other.tag == "Dead")
         {
             Debug.Log("Player is in dead state");
-            Destroy(other.gameObject);
+            //Destroy(other.gameObject);
         }
     }
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }

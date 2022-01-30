@@ -13,18 +13,18 @@ public class AliveTriggerChecker : MonoBehaviour
         else if (other.tag == "Alive")
         {
             Debug.Log("Player is in alive state");
-            Destroy(other.gameObject);
+            //Destroy(other.gameObject);
         }
     }
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }

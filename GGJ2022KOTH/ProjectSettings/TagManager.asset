@@ -8,6 +8,10 @@ TagManager:
   - Dead
   - Ray
   - God
+  - GodZone
+  - DeadZone
+  - AliveZone
+  - PlayerManager
   layers:
   - Default
   - TransparentFX

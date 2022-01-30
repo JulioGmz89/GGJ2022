@@ -12,11 +12,9 @@ public class PlayerInputManagerScript : MonoBehaviour
 
     private List<GameObject> players = new List<GameObject>();
 
+    public Text winText;
+    public GameObject playerWinText;
 
-    void Start()
-    {
-
-    }
     void OnPlayerJoined(PlayerInput playerInput)
     {
         players.Add(playerInput.gameObject);
@@ -54,8 +52,31 @@ public class PlayerInputManagerScript : MonoBehaviour
         for (int i = 0; i < players.Count; i++)
         {
             playerScore[i].text = players[i].GetComponent<PlayerDetails>().score.ToString("0");
+
+            if (Mathf.Round(players[i].GetComponent<PlayerDetails>().score) == 100)
+            {
+                playerWin(i + 1);
+            }
+
         }
+    }
 
+    public void returnSpawn()
+    {
+        for (int i = 0; i < players.Count; i++)
+        {
+            if (players[i].tag != "God")
+            {
+                Vector3 startPos = spawnLocations[i].position;
+                players[i].transform.position = startPos;
+            }
+        }
+    }
 
+    public void playerWin(int playerNumber)
+    {
+        playerWinText.SetActive(true);
+        winText.text = "Player " + playerNumber + " wins";
+        Time.timeScale = 0f;
     }
 }

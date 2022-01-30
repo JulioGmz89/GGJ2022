@@ -8,6 +8,7 @@ public class PhaseChanger : MonoBehaviour
     public GameObject vivo;
     public GameObject muerto;
     public GameObject godMode;
+    private PlayerInputManagerScript pim;
     int RandN;
 
     void Awake()
@@ -25,6 +26,7 @@ public class PhaseChanger : MonoBehaviour
     void Start()
     {
         Physics.IgnoreLayerCollision(6, 6, true);
+        pim = GameObject.FindGameObjectWithTag("PlayerManager").GetComponent<PlayerInputManagerScript>();
     }
 
     void Update()
@@ -46,6 +48,17 @@ public class PhaseChanger : MonoBehaviour
             vivo.SetActive(false);
             muerto.SetActive(false);
             godMode.SetActive(true);
+        }
+    }
+    void OnTriggerEnter(Collider other)
+    {
+        if (player.tag == "Dead" && other.tag == "Ray")
+        {
+            player.tag = "Alive";
+        }
+        else if (player.tag == "Alive" && other.tag == "Ray")
+        {
+            player.tag = "Dead";
         }
     }
 }

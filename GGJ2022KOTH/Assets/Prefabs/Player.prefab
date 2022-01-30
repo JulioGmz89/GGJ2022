@@ -1,86 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &315950032413178606
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 61510837759871844}
-  - component: {fileID: 3668300093987339524}
-  - component: {fileID: 8961248811113489174}
-  m_Layer: 6
-  m_Name: Cube (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &61510837759871844
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 315950032413178606}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.0293}
-  m_LocalScale: {x: 0.0057979, y: 0.0299972, z: 0.0051249997}
-  m_Children: []
-  m_Father: {fileID: 8083690706347356419}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &3668300093987339524
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 315950032413178606}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &8961248811113489174
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 315950032413178606}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1091829951563430502
 GameObject:
   m_ObjectHideFlags: 0
@@ -113,7 +32,6 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 30, y: 30, z: 30}
   m_Children:
-  - {fileID: 61510837759871844}
   - {fileID: 3603412793635907923}
   m_Father: {fileID: 4868607070867324877}
   m_RootOrder: 0
@@ -179,7 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1229af0315a9aca4d9c25f46419868db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rayPrefab: {fileID: 4284658507057116358, guid: 2892ee35e734b844a9bd2b211d9d7627, type: 3}
+  rayPrefab: {fileID: 8289986217360557163, guid: bb27ce5d9bd3bba41a1404da460d0951, type: 3}
   firePoint: {fileID: 3603412793635907923}
   reticle: {fileID: 8186576820585581373}
 --- !u!54 &3877958429594612891
@@ -235,11 +153,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3130945602043380742}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.0301}
+  m_LocalPosition: {x: 0, y: 0, z: 0.0446}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8083690706347356419}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5027124245046353488
 GameObject:
@@ -613,7 +531,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 5094016789865000417}
-  respawnPoint: {fileID: 3438515102383570933, guid: a8c88e830fbc37f4f92951eff681fd81, type: 3}
+  respawnPoints:
+  - {fileID: 8466854099583695791, guid: d4395b5e5c272ef4b840330fb05f217a, type: 3}
+  - {fileID: 3036926106222190956, guid: 3d00d56008c25794bbab3a3a85d05e92, type: 3}
+  - {fileID: 8970185556369860204, guid: 165526fba6755af46bcef2fbfea15911, type: 3}
+  - {fileID: 7217434664727620599, guid: ebb33ca69414189438cf8696e73ae250, type: 3}
   speed: 5
   Score: 0
   isDefeated: 0
@@ -674,6 +596,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e62ce1acbaab574bafb35b19e2fa2f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerID: 0
+  startPos: {x: 0, y: 0, z: 0}
+  score: 0
 --- !u!1 &5928111763690903126
 GameObject:
   m_ObjectHideFlags: 0
@@ -847,7 +772,7 @@ GameObject:
   - component: {fileID: 2278961835828665507}
   - component: {fileID: 6628202449202874081}
   - component: {fileID: 5698238572580749261}
-  m_Layer: 6
+  m_Layer: 10
   m_Name: ReticlePlaceholder
   m_TagString: Untagged
   m_Icon: {fileID: 0}

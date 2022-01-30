@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class PlayerController : MonoBehaviour
 {
     public GameObject player;
-    public Transform respawnPoint;
+    public Transform[] respawnPoints;
     public float speed = 5;
     private Vector2 movementInput;
     public float Score = 0;
@@ -15,8 +15,11 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         PlayerMovement();
-        PlayerDefeated();
 
+        if (isDefeated)
+        {
+            PlayerDefeated();
+        }
     }
 
     public void OnMove(InputAction.CallbackContext ctx) => movementInput = ctx.ReadValue<Vector2>();
@@ -31,24 +34,24 @@ public class PlayerController : MonoBehaviour
         else if (player.tag == "God")
         {
             transform.Translate(new Vector3(0, 0, movementInput.y) * speed * Time.deltaTime, Space.World);
-            //Score += Time.deltaTime;
-            //Debug.Log(Mathf.Round(Score));
+        }
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (player.tag == "Alive" && other.tag == "DeadZone" && isDefeated == false)
+        {
+            isDefeated = true;
+        }
+        else if (player.tag == "Dead" && other.tag == "AliveZone" && isDefeated == false)
+        {
+            isDefeated = true;
+
         }
     }
     void PlayerDefeated()
     {
-
-        if (isDefeated)
-        {
-            speed = 0;
-            StartCoroutine(Respawn());
-        }
-    }
-    IEnumerator Respawn()
-    {
-        yield return new WaitForSeconds(2f);
-        gameObject.transform.position = respawnPoint.position;
-        speed = 5f;
+        gameObject.transform.position = respawnPoints[Random.Range(0, respawnPoints.Length)].position;
         isDefeated = false;
     }
 }
