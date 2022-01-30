@@ -11,8 +11,7 @@ GameObject:
   - component: {fileID: 61510837759871844}
   - component: {fileID: 3668300093987339524}
   - component: {fileID: 8961248811113489174}
-  - component: {fileID: 307562450880721272}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -82,19 +81,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &307562450880721272
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 315950032413178606}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1091829951563430502
 GameObject:
   m_ObjectHideFlags: 0
@@ -109,7 +95,7 @@ GameObject:
   - component: {fileID: 3445842567069042055}
   - component: {fileID: 3877958429594612891}
   - component: {fileID: 6575759637002240831}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -234,7 +220,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3603412793635907923}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: firePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -265,7 +251,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4868607070867324877}
   - component: {fileID: 7243320213133379111}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GodTest
   m_TagString: God
   m_Icon: {fileID: 0}
@@ -280,7 +266,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5027124245046353488}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.008497, y: 0.03416085, z: -3.9108937}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8083690706347356419}
@@ -398,9 +384,10 @@ GameObject:
   - component: {fileID: -4873836744219019798}
   - component: {fileID: 7200727641112478673}
   - component: {fileID: 3085638885780594901}
+  - component: {fileID: 1723587074820086406}
   m_Layer: 6
   m_Name: Player
-  m_TagString: Dead
+  m_TagString: Alive
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -628,6 +615,7 @@ MonoBehaviour:
   player: {fileID: 5094016789865000417}
   respawnPoint: {fileID: 3438515102383570933, guid: a8c88e830fbc37f4f92951eff681fd81, type: 3}
   speed: 5
+  Score: 0
   isDefeated: 0
 --- !u!114 &-4873836744219019798
 MonoBehaviour:
@@ -659,7 +647,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 84
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!65 &3085638885780594901
 BoxCollider:
@@ -672,8 +660,20 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.5536663, y: 1, z: 0.5563585}
+  m_Center: {x: 0.011381477, y: 0, z: 0.008995265}
+--- !u!114 &1723587074820086406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5094016789865000417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e62ce1acbaab574bafb35b19e2fa2f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5928111763690903126
 GameObject:
   m_ObjectHideFlags: 0
@@ -847,7 +847,7 @@ GameObject:
   - component: {fileID: 2278961835828665507}
   - component: {fileID: 6628202449202874081}
   - component: {fileID: 5698238572580749261}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ReticlePlaceholder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
