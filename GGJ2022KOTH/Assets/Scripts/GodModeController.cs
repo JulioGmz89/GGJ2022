@@ -9,16 +9,15 @@ public class GodModeController : MonoBehaviour
     [SerializeField]
     private Transform firePoint;
     public GameObject reticle;
-    public Vector3 newPos;
+    private Vector2 movementInput;
 
     private float rayCooldown = 3f;
 
     private void Update()
     {
-        Vector3 godPos = gameObject.transform.position;
+
         Vector3 relativePos = reticle.transform.position - transform.position;
-        newPos = new Vector3(relativePos.x, 0, relativePos.z);
-        Quaternion rotation = Quaternion.LookRotation(newPos, Vector3.up);
+        Quaternion rotation = Quaternion.LookRotation(relativePos, Vector3.up);
         transform.rotation = rotation;
 
         //AUTO SHOOT

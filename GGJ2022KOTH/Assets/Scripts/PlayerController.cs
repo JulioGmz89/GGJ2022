@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     public bool isDefeated = false;
     public Animator alivePlayerAnim;
     public Animator deadPlayerAnim;
+    public bool playerSelectionInput = false;
     void Start()
     {
         Time.timeScale = 1;
@@ -29,6 +30,18 @@ public class PlayerController : MonoBehaviour
     }
 
     public void OnMove(InputAction.CallbackContext ctx) => movementInput = ctx.ReadValue<Vector2>();
+    // public void PlayerSelect(InputAction.CallbackContext ctx) //=> playerSelectionInput = ctx.action.triggered;
+    // {
+    //     if (ctx.action.enabled)
+    //     {
+    //         playerSelectionInput = true;
+    //         Debug.Log(playerSelectionInput);
+    //     }
+    //     else if (ctx.action.)
+    //     {
+    //         playerSelectionInput = false;
+    //     }
+    // }
 
     void PlayerMovement()
     {
@@ -84,4 +97,7 @@ public class PlayerController : MonoBehaviour
         gameObject.transform.position = respawnPoints[Random.Range(0, respawnPoints.Length)].position;
         isDefeated = false;
     }
+
+
+
 }

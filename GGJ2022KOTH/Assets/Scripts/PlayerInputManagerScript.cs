@@ -20,7 +20,6 @@ public class PlayerInputManagerScript : MonoBehaviour
     void OnPlayerJoined(PlayerInput playerInput)
     {
         players.Add(playerInput.gameObject);
-        Debug.Log("aaa" + playerInput);
         Debug.Log("PlayerInput ID: " + playerInput.playerIndex);
 
         playerInput.gameObject.GetComponent<PlayerDetails>().playerID = playerInput.playerIndex + 1;

@@ -12,6 +12,8 @@ TagManager:
   - DeadZone
   - AliveZone
   - PlayerManager
+  - MapSelection
+  - GameModeSelection
   layers:
   - Default
   - TransparentFX
