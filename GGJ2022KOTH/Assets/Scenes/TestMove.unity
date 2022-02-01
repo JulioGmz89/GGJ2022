@@ -135,7 +135,6 @@ GameObject:
   - component: {fileID: 2663810}
   - component: {fileID: 2663809}
   - component: {fileID: 2663808}
-  - component: {fileID: 2663807}
   m_Layer: 0
   m_Name: Exorcise (90)
   m_TagString: AliveZone
@@ -157,18 +156,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 90
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &2663807
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2663805}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &2663808
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -243,7 +230,6 @@ GameObject:
   - component: {fileID: 6824029}
   - component: {fileID: 6824028}
   - component: {fileID: 6824027}
-  - component: {fileID: 6824026}
   m_Layer: 0
   m_Name: Exorcise (57)
   m_TagString: AliveZone
@@ -265,18 +251,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 70
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &6824026
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6824024}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &6824027
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -351,7 +325,6 @@ GameObject:
   - component: {fileID: 14860186}
   - component: {fileID: 14860185}
   - component: {fileID: 14860184}
-  - component: {fileID: 14860183}
   m_Layer: 0
   m_Name: Spikes (2)
   m_TagString: DeadZone
@@ -373,18 +346,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &14860183
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 14860181}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &14860184
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -459,7 +420,6 @@ GameObject:
   - component: {fileID: 31819140}
   - component: {fileID: 31819139}
   - component: {fileID: 31819138}
-  - component: {fileID: 31819137}
   m_Layer: 0
   m_Name: Spikes (64)
   m_TagString: DeadZone
@@ -481,18 +441,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 64
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &31819137
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 31819135}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &31819138
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -647,7 +595,6 @@ GameObject:
   - component: {fileID: 48602657}
   - component: {fileID: 48602656}
   - component: {fileID: 48602655}
-  - component: {fileID: 48602654}
   m_Layer: 0
   m_Name: Exorcise (11)
   m_TagString: AliveZone
@@ -669,18 +616,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &48602654
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 48602652}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &48602655
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -755,7 +690,6 @@ GameObject:
   - component: {fileID: 49875797}
   - component: {fileID: 49875796}
   - component: {fileID: 49875795}
-  - component: {fileID: 49875794}
   m_Layer: 0
   m_Name: Exorcise (42)
   m_TagString: AliveZone
@@ -777,18 +711,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &49875794
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 49875792}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &49875795
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -863,7 +785,6 @@ GameObject:
   - component: {fileID: 65146708}
   - component: {fileID: 65146707}
   - component: {fileID: 65146706}
-  - component: {fileID: 65146705}
   m_Layer: 0
   m_Name: Exorcise (41)
   m_TagString: AliveZone
@@ -885,18 +806,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &65146705
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 65146703}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &65146706
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -971,7 +880,6 @@ GameObject:
   - component: {fileID: 74844064}
   - component: {fileID: 74844063}
   - component: {fileID: 74844062}
-  - component: {fileID: 74844061}
   m_Layer: 0
   m_Name: Spikes (17)
   m_TagString: DeadZone
@@ -993,18 +901,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &74844061
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 74844059}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &74844062
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1079,7 +975,6 @@ GameObject:
   - component: {fileID: 79230974}
   - component: {fileID: 79230973}
   - component: {fileID: 79230972}
-  - component: {fileID: 79230971}
   m_Layer: 0
   m_Name: Spikes (60)
   m_TagString: DeadZone
@@ -1101,18 +996,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 60
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &79230971
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 79230969}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &79230972
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1187,7 +1070,6 @@ GameObject:
   - component: {fileID: 82636547}
   - component: {fileID: 82636546}
   - component: {fileID: 82636545}
-  - component: {fileID: 82636544}
   m_Layer: 0
   m_Name: Exorcise (47)
   m_TagString: AliveZone
@@ -1209,18 +1091,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &82636544
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 82636542}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &82636545
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1295,7 +1165,6 @@ GameObject:
   - component: {fileID: 84548882}
   - component: {fileID: 84548881}
   - component: {fileID: 84548880}
-  - component: {fileID: 84548879}
   m_Layer: 0
   m_Name: Exorcise (65)
   m_TagString: AliveZone
@@ -1317,18 +1186,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 64
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &84548879
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 84548877}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &84548880
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1403,7 +1260,6 @@ GameObject:
   - component: {fileID: 85166298}
   - component: {fileID: 85166297}
   - component: {fileID: 85166296}
-  - component: {fileID: 85166295}
   m_Layer: 0
   m_Name: Spikes (58)
   m_TagString: DeadZone
@@ -1425,18 +1281,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 58
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &85166295
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 85166293}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &85166296
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1511,7 +1355,6 @@ GameObject:
   - component: {fileID: 89492208}
   - component: {fileID: 89492207}
   - component: {fileID: 89492206}
-  - component: {fileID: 89492205}
   m_Layer: 0
   m_Name: Spikes (38)
   m_TagString: DeadZone
@@ -1533,18 +1376,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &89492205
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 89492203}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &89492206
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1619,7 +1450,6 @@ GameObject:
   - component: {fileID: 91537329}
   - component: {fileID: 91537328}
   - component: {fileID: 91537327}
-  - component: {fileID: 91537326}
   m_Layer: 0
   m_Name: Exorcise (75)
   m_TagString: AliveZone
@@ -1641,18 +1471,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 75
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &91537326
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 91537324}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &91537327
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1727,7 +1545,6 @@ GameObject:
   - component: {fileID: 108257068}
   - component: {fileID: 108257067}
   - component: {fileID: 108257066}
-  - component: {fileID: 108257065}
   m_Layer: 0
   m_Name: Spikes (67)
   m_TagString: DeadZone
@@ -1749,18 +1566,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 67
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &108257065
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 108257063}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &108257066
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1835,7 +1640,6 @@ GameObject:
   - component: {fileID: 114333751}
   - component: {fileID: 114333750}
   - component: {fileID: 114333749}
-  - component: {fileID: 114333748}
   m_Layer: 0
   m_Name: Spikes (56)
   m_TagString: DeadZone
@@ -1857,18 +1661,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &114333748
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 114333746}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &114333749
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1943,7 +1735,6 @@ GameObject:
   - component: {fileID: 119747479}
   - component: {fileID: 119747478}
   - component: {fileID: 119747477}
-  - component: {fileID: 119747476}
   m_Layer: 0
   m_Name: Spikes (82)
   m_TagString: DeadZone
@@ -1965,18 +1756,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 82
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &119747476
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 119747474}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &119747477
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2051,7 +1830,6 @@ GameObject:
   - component: {fileID: 126644051}
   - component: {fileID: 126644050}
   - component: {fileID: 126644049}
-  - component: {fileID: 126644048}
   m_Layer: 0
   m_Name: Exorcise (63)
   m_TagString: AliveZone
@@ -2073,18 +1851,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 62
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &126644048
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 126644046}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &126644049
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2159,7 +1925,6 @@ GameObject:
   - component: {fileID: 127971104}
   - component: {fileID: 127971103}
   - component: {fileID: 127971102}
-  - component: {fileID: 127971101}
   m_Layer: 0
   m_Name: Exorcise (64)
   m_TagString: AliveZone
@@ -2181,18 +1946,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 63
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &127971101
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 127971099}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &127971102
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2267,7 +2020,6 @@ GameObject:
   - component: {fileID: 141443030}
   - component: {fileID: 141443029}
   - component: {fileID: 141443028}
-  - component: {fileID: 141443027}
   m_Layer: 0
   m_Name: Exorcise (87)
   m_TagString: AliveZone
@@ -2289,18 +2041,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 87
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &141443027
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 141443025}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &141443028
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2375,7 +2115,6 @@ GameObject:
   - component: {fileID: 147495228}
   - component: {fileID: 147495227}
   - component: {fileID: 147495226}
-  - component: {fileID: 147495225}
   m_Layer: 0
   m_Name: Spikes (54)
   m_TagString: DeadZone
@@ -2397,18 +2136,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &147495225
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 147495223}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &147495226
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2483,7 +2210,6 @@ GameObject:
   - component: {fileID: 154663672}
   - component: {fileID: 154663671}
   - component: {fileID: 154663670}
-  - component: {fileID: 154663669}
   m_Layer: 0
   m_Name: Spikes (80)
   m_TagString: DeadZone
@@ -2505,18 +2231,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 80
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &154663669
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 154663667}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &154663670
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2591,7 +2305,6 @@ GameObject:
   - component: {fileID: 170178090}
   - component: {fileID: 170178089}
   - component: {fileID: 170178088}
-  - component: {fileID: 170178087}
   m_Layer: 0
   m_Name: Spikes (5)
   m_TagString: DeadZone
@@ -2613,18 +2326,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &170178087
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 170178085}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &170178088
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2699,7 +2400,6 @@ GameObject:
   - component: {fileID: 171225165}
   - component: {fileID: 171225164}
   - component: {fileID: 171225163}
-  - component: {fileID: 171225162}
   m_Layer: 0
   m_Name: Spikes (63)
   m_TagString: DeadZone
@@ -2721,18 +2421,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 63
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &171225162
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 171225160}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &171225163
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2795,114 +2483,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 171225160}
   m_Mesh: {fileID: -9113646534211321542, guid: d0d1a0c44d4850640b1dcb78f9557d37, type: 3}
---- !u!1 &171369782
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 171369787}
-  - component: {fileID: 171369786}
-  - component: {fileID: 171369785}
-  - component: {fileID: 171369784}
-  - component: {fileID: 171369783}
-  m_Layer: 0
-  m_Name: Exorcise
-  m_TagString: AliveZone
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &171369783
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 171369782}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!65 &171369784
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 171369782}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.016308507, y: 0.0164438, z: 0.052341532}
-  m_Center: {x: 0.00002317965, y: 0.00016164541, z: -0.029674854}
---- !u!23 &171369785
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 171369782}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 39404b2fbcabe6a4eafd0ccadbfcb4d8, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &171369786
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 171369782}
-  m_Mesh: {fileID: -7582488396951073625, guid: 1c9944ca97219f74cb22bb7baf3a0762, type: 3}
---- !u!4 &171369787
+--- !u!4 &171369787 stripped
 Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 2335770716111718742, guid: 302e12920fee16c45816f3dc0237fa68, type: 3}
+  m_PrefabInstance: {fileID: 2335770716213849197}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 171369782}
-  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.08999998, y: -3.7661386, z: -0.32}
-  m_LocalScale: {x: 50, y: 50, z: 50}
-  m_Children: []
-  m_Father: {fileID: 2109926859}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &187607413
 GameObject:
   m_ObjectHideFlags: 0
@@ -2915,7 +2500,6 @@ GameObject:
   - component: {fileID: 187607418}
   - component: {fileID: 187607417}
   - component: {fileID: 187607416}
-  - component: {fileID: 187607415}
   m_Layer: 0
   m_Name: Spikes (11)
   m_TagString: DeadZone
@@ -2937,18 +2521,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &187607415
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 187607413}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &187607416
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3023,7 +2595,6 @@ GameObject:
   - component: {fileID: 189887944}
   - component: {fileID: 189887943}
   - component: {fileID: 189887942}
-  - component: {fileID: 189887941}
   m_Layer: 0
   m_Name: Exorcise (61)
   m_TagString: AliveZone
@@ -3045,18 +2616,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 60
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &189887941
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 189887939}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &189887942
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3131,7 +2690,6 @@ GameObject:
   - component: {fileID: 201190950}
   - component: {fileID: 201190949}
   - component: {fileID: 201190948}
-  - component: {fileID: 201190947}
   m_Layer: 0
   m_Name: Spikes (53)
   m_TagString: DeadZone
@@ -3153,18 +2711,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &201190947
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 201190945}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &201190948
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3239,7 +2785,6 @@ GameObject:
   - component: {fileID: 220546811}
   - component: {fileID: 220546810}
   - component: {fileID: 220546809}
-  - component: {fileID: 220546808}
   m_Layer: 0
   m_Name: Exorcise (2)
   m_TagString: AliveZone
@@ -3261,18 +2806,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &220546808
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 220546806}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &220546809
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3347,7 +2880,6 @@ GameObject:
   - component: {fileID: 226891289}
   - component: {fileID: 226891288}
   - component: {fileID: 226891287}
-  - component: {fileID: 226891286}
   m_Layer: 0
   m_Name: Exorcise (21)
   m_TagString: AliveZone
@@ -3369,18 +2901,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &226891286
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 226891284}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &226891287
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3588,7 +3108,6 @@ GameObject:
   - component: {fileID: 278414667}
   - component: {fileID: 278414666}
   - component: {fileID: 278414665}
-  - component: {fileID: 278414664}
   m_Layer: 0
   m_Name: Exorcise (77)
   m_TagString: AliveZone
@@ -3610,18 +3129,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 77
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &278414664
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 278414662}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &278414665
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3696,7 +3203,6 @@ GameObject:
   - component: {fileID: 280682564}
   - component: {fileID: 280682563}
   - component: {fileID: 280682562}
-  - component: {fileID: 280682561}
   m_Layer: 0
   m_Name: Exorcise (35)
   m_TagString: AliveZone
@@ -3718,18 +3224,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &280682561
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 280682559}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &280682562
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3804,7 +3298,6 @@ GameObject:
   - component: {fileID: 288863751}
   - component: {fileID: 288863750}
   - component: {fileID: 288863749}
-  - component: {fileID: 288863748}
   m_Layer: 0
   m_Name: Spikes (52)
   m_TagString: DeadZone
@@ -3826,18 +3319,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &288863748
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 288863746}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &288863749
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3912,7 +3393,6 @@ GameObject:
   - component: {fileID: 300583950}
   - component: {fileID: 300583949}
   - component: {fileID: 300583948}
-  - component: {fileID: 300583947}
   m_Layer: 0
   m_Name: Spikes (6)
   m_TagString: DeadZone
@@ -3934,18 +3414,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &300583947
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 300583945}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &300583948
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4020,7 +3488,6 @@ GameObject:
   - component: {fileID: 303969328}
   - component: {fileID: 303969327}
   - component: {fileID: 303969326}
-  - component: {fileID: 303969325}
   m_Layer: 0
   m_Name: Exorcise (80)
   m_TagString: AliveZone
@@ -4042,18 +3509,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 80
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &303969325
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 303969323}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &303969326
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4223,7 +3678,6 @@ GameObject:
   - component: {fileID: 345942353}
   - component: {fileID: 345942352}
   - component: {fileID: 345942351}
-  - component: {fileID: 345942350}
   m_Layer: 0
   m_Name: Spikes (48)
   m_TagString: DeadZone
@@ -4245,18 +3699,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &345942350
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 345942348}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &345942351
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4331,7 +3773,6 @@ GameObject:
   - component: {fileID: 347947657}
   - component: {fileID: 347947656}
   - component: {fileID: 347947655}
-  - component: {fileID: 347947654}
   m_Layer: 0
   m_Name: Exorcise (23)
   m_TagString: AliveZone
@@ -4353,18 +3794,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &347947654
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 347947652}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &347947655
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4518,7 +3947,6 @@ GameObject:
   - component: {fileID: 365854260}
   - component: {fileID: 365854259}
   - component: {fileID: 365854258}
-  - component: {fileID: 365854257}
   m_Layer: 0
   m_Name: Exorcise (76)
   m_TagString: AliveZone
@@ -4540,18 +3968,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 76
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &365854257
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 365854255}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &365854258
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4626,7 +4042,6 @@ GameObject:
   - component: {fileID: 366522884}
   - component: {fileID: 366522883}
   - component: {fileID: 366522882}
-  - component: {fileID: 366522881}
   m_Layer: 0
   m_Name: Spikes (30)
   m_TagString: DeadZone
@@ -4648,18 +4063,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &366522881
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 366522879}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &366522882
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4734,7 +4137,6 @@ GameObject:
   - component: {fileID: 392162386}
   - component: {fileID: 392162385}
   - component: {fileID: 392162384}
-  - component: {fileID: 392162383}
   m_Layer: 0
   m_Name: Exorcise (12)
   m_TagString: AliveZone
@@ -4756,18 +4158,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &392162383
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 392162381}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &392162384
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4842,7 +4232,6 @@ GameObject:
   - component: {fileID: 411883604}
   - component: {fileID: 411883603}
   - component: {fileID: 411883602}
-  - component: {fileID: 411883601}
   m_Layer: 0
   m_Name: Exorcise (6)
   m_TagString: AliveZone
@@ -4864,18 +4253,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &411883601
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 411883599}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &411883602
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4950,7 +4327,6 @@ GameObject:
   - component: {fileID: 431627458}
   - component: {fileID: 431627457}
   - component: {fileID: 431627456}
-  - component: {fileID: 431627455}
   m_Layer: 0
   m_Name: Spikes (10)
   m_TagString: DeadZone
@@ -4972,18 +4348,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &431627455
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 431627453}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &431627456
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5058,7 +4422,6 @@ GameObject:
   - component: {fileID: 434225026}
   - component: {fileID: 434225025}
   - component: {fileID: 434225024}
-  - component: {fileID: 434225023}
   m_Layer: 0
   m_Name: Exorcise (81)
   m_TagString: AliveZone
@@ -5080,18 +4443,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 81
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &434225023
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 434225021}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &434225024
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5166,7 +4517,6 @@ GameObject:
   - component: {fileID: 449714130}
   - component: {fileID: 449714129}
   - component: {fileID: 449714128}
-  - component: {fileID: 449714127}
   m_Layer: 0
   m_Name: Spikes (25)
   m_TagString: DeadZone
@@ -5188,18 +4538,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &449714127
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 449714125}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &449714128
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5432,7 +4770,6 @@ GameObject:
   - component: {fileID: 457142908}
   - component: {fileID: 457142907}
   - component: {fileID: 457142906}
-  - component: {fileID: 457142905}
   m_Layer: 0
   m_Name: Spikes (27)
   m_TagString: DeadZone
@@ -5454,18 +4791,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &457142905
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 457142903}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &457142906
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5540,7 +4865,6 @@ GameObject:
   - component: {fileID: 457351942}
   - component: {fileID: 457351941}
   - component: {fileID: 457351940}
-  - component: {fileID: 457351939}
   m_Layer: 0
   m_Name: Exorcise (7)
   m_TagString: AliveZone
@@ -5562,18 +4886,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &457351939
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 457351937}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &457351940
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5648,7 +4960,6 @@ GameObject:
   - component: {fileID: 470532471}
   - component: {fileID: 470532470}
   - component: {fileID: 470532469}
-  - component: {fileID: 470532468}
   m_Layer: 0
   m_Name: Exorcise (27)
   m_TagString: AliveZone
@@ -5670,18 +4981,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &470532468
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 470532466}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &470532469
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5744,114 +5043,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 470532466}
   m_Mesh: {fileID: -7582488396951073625, guid: 1c9944ca97219f74cb22bb7baf3a0762, type: 3}
---- !u!1 &471109897
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 471109902}
-  - component: {fileID: 471109901}
-  - component: {fileID: 471109900}
-  - component: {fileID: 471109899}
-  - component: {fileID: 471109898}
-  m_Layer: 0
-  m_Name: Spikes
-  m_TagString: DeadZone
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &471109898
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 471109897}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!65 &471109899
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 471109897}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.015975188, y: 0.015316332, z: 0.012787395}
-  m_Center: {x: 0.00018299997, y: 0.00021957546, z: 0.005164423}
---- !u!23 &471109900
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 471109897}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &471109901
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 471109897}
-  m_Mesh: {fileID: -9113646534211321542, guid: d0d1a0c44d4850640b1dcb78f9557d37, type: 3}
---- !u!4 &471109902
+--- !u!4 &471109902 stripped
 Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 8865209493352651197, guid: 8ec3ed13195b44542bcf523aaac986e0, type: 3}
+  m_PrefabInstance: {fileID: 8865209493149976755}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 471109897}
-  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.08, y: -1.2861385, z: 3.59}
-  m_LocalScale: {x: 50, y: 50, z: 50}
-  m_Children: []
-  m_Father: {fileID: 1466806923}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1 &478505833
 GameObject:
   m_ObjectHideFlags: 0
@@ -5864,7 +5060,6 @@ GameObject:
   - component: {fileID: 478505838}
   - component: {fileID: 478505837}
   - component: {fileID: 478505836}
-  - component: {fileID: 478505835}
   m_Layer: 0
   m_Name: Exorcise (73)
   m_TagString: AliveZone
@@ -5886,18 +5081,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 73
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &478505835
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 478505833}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &478505836
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5972,7 +5155,6 @@ GameObject:
   - component: {fileID: 503411803}
   - component: {fileID: 503411802}
   - component: {fileID: 503411801}
-  - component: {fileID: 503411800}
   m_Layer: 0
   m_Name: Exorcise (33)
   m_TagString: AliveZone
@@ -5994,18 +5176,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &503411800
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 503411798}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &503411801
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6197,7 +5367,6 @@ GameObject:
   - component: {fileID: 509978422}
   - component: {fileID: 509978421}
   - component: {fileID: 509978420}
-  - component: {fileID: 509978419}
   m_Layer: 0
   m_Name: Exorcise (44)
   m_TagString: AliveZone
@@ -6219,18 +5388,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &509978419
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 509978417}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &509978420
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6305,7 +5462,6 @@ GameObject:
   - component: {fileID: 522704339}
   - component: {fileID: 522704338}
   - component: {fileID: 522704337}
-  - component: {fileID: 522704336}
   m_Layer: 0
   m_Name: Exorcise (29)
   m_TagString: AliveZone
@@ -6327,18 +5483,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &522704336
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 522704334}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &522704337
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6434,7 +5578,6 @@ GameObject:
   - component: {fileID: 536503760}
   - component: {fileID: 536503759}
   - component: {fileID: 536503758}
-  - component: {fileID: 536503757}
   m_Layer: 0
   m_Name: Exorcise (84)
   m_TagString: AliveZone
@@ -6456,18 +5599,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 84
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &536503757
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 536503755}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &536503758
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6635,7 +5766,6 @@ GameObject:
   - component: {fileID: 558825335}
   - component: {fileID: 558825334}
   - component: {fileID: 558825333}
-  - component: {fileID: 558825332}
   m_Layer: 0
   m_Name: Spikes (32)
   m_TagString: DeadZone
@@ -6657,18 +5787,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &558825332
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 558825330}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &558825333
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6743,7 +5861,6 @@ GameObject:
   - component: {fileID: 565110748}
   - component: {fileID: 565110747}
   - component: {fileID: 565110746}
-  - component: {fileID: 565110745}
   m_Layer: 0
   m_Name: Exorcise (17)
   m_TagString: AliveZone
@@ -6765,18 +5882,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &565110745
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 565110743}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &565110746
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6851,7 +5956,6 @@ GameObject:
   - component: {fileID: 579449295}
   - component: {fileID: 579449294}
   - component: {fileID: 579449293}
-  - component: {fileID: 579449292}
   m_Layer: 0
   m_Name: Exorcise (58)
   m_TagString: AliveZone
@@ -6873,18 +5977,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 57
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &579449292
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 579449290}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &579449293
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7060,7 +6152,6 @@ GameObject:
   - component: {fileID: 617639132}
   - component: {fileID: 617639131}
   - component: {fileID: 617639130}
-  - component: {fileID: 617639129}
   m_Layer: 0
   m_Name: Spikes (79)
   m_TagString: DeadZone
@@ -7082,18 +6173,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 79
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &617639129
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 617639127}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &617639130
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7168,7 +6247,6 @@ GameObject:
   - component: {fileID: 665828033}
   - component: {fileID: 665828032}
   - component: {fileID: 665828031}
-  - component: {fileID: 665828030}
   m_Layer: 0
   m_Name: Spikes (36)
   m_TagString: DeadZone
@@ -7190,18 +6268,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &665828030
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 665828028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &665828031
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7276,7 +6342,6 @@ GameObject:
   - component: {fileID: 677099804}
   - component: {fileID: 677099803}
   - component: {fileID: 677099802}
-  - component: {fileID: 677099801}
   m_Layer: 0
   m_Name: Spikes (84)
   m_TagString: DeadZone
@@ -7298,18 +6363,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 84
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &677099801
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 677099799}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &677099802
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7372,6 +6425,101 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 677099799}
   m_Mesh: {fileID: -9113646534211321542, guid: d0d1a0c44d4850640b1dcb78f9557d37, type: 3}
+--- !u!1 &710146990
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 710146991}
+  - component: {fileID: 710146994}
+  - component: {fileID: 710146993}
+  - component: {fileID: 710146992}
+  m_Layer: 0
+  m_Name: FastTile
+  m_TagString: FastTile
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &710146991
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710146990}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.76545525, y: 4.2159925, z: -0.0807994}
+  m_LocalScale: {x: 1, y: 1, z: 13.999701}
+  m_Children: []
+  m_Father: {fileID: 936901059}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &710146992
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710146990}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &710146993
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710146990}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: dcfc8780e5bad154f8c4298d1809b60b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &710146994
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710146990}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &722734196
 GameObject:
   m_ObjectHideFlags: 0
@@ -7384,7 +6532,6 @@ GameObject:
   - component: {fileID: 722734201}
   - component: {fileID: 722734200}
   - component: {fileID: 722734199}
-  - component: {fileID: 722734198}
   m_Layer: 0
   m_Name: Exorcise (9)
   m_TagString: AliveZone
@@ -7406,18 +6553,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &722734198
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 722734196}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &722734199
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7492,7 +6627,6 @@ GameObject:
   - component: {fileID: 737115589}
   - component: {fileID: 737115588}
   - component: {fileID: 737115587}
-  - component: {fileID: 737115586}
   m_Layer: 0
   m_Name: Exorcise (13)
   m_TagString: AliveZone
@@ -7514,18 +6648,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &737115586
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 737115584}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &737115587
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7676,7 +6798,6 @@ GameObject:
   - component: {fileID: 771561224}
   - component: {fileID: 771561223}
   - component: {fileID: 771561222}
-  - component: {fileID: 771561221}
   m_Layer: 0
   m_Name: Spikes (44)
   m_TagString: DeadZone
@@ -7698,18 +6819,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &771561221
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 771561219}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &771561222
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7863,7 +6972,6 @@ GameObject:
   - component: {fileID: 788777567}
   - component: {fileID: 788777566}
   - component: {fileID: 788777565}
-  - component: {fileID: 788777564}
   m_Layer: 0
   m_Name: Exorcise (59)
   m_TagString: AliveZone
@@ -7885,18 +6993,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 58
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &788777564
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 788777562}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &788777565
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7971,7 +7067,6 @@ GameObject:
   - component: {fileID: 792200772}
   - component: {fileID: 792200771}
   - component: {fileID: 792200770}
-  - component: {fileID: 792200769}
   m_Layer: 0
   m_Name: Exorcise (83)
   m_TagString: AliveZone
@@ -7993,18 +7088,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 83
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &792200769
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 792200767}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &792200770
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8079,7 +7162,6 @@ GameObject:
   - component: {fileID: 796527825}
   - component: {fileID: 796527824}
   - component: {fileID: 796527823}
-  - component: {fileID: 796527822}
   m_Layer: 0
   m_Name: Spikes (62)
   m_TagString: DeadZone
@@ -8101,18 +7183,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 62
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &796527822
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 796527820}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &796527823
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8187,7 +7257,6 @@ GameObject:
   - component: {fileID: 804814866}
   - component: {fileID: 804814865}
   - component: {fileID: 804814864}
-  - component: {fileID: 804814863}
   m_Layer: 0
   m_Name: Spikes (19)
   m_TagString: DeadZone
@@ -8209,18 +7278,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &804814863
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 804814861}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &804814864
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8295,7 +7352,6 @@ GameObject:
   - component: {fileID: 848374165}
   - component: {fileID: 848374164}
   - component: {fileID: 848374163}
-  - component: {fileID: 848374162}
   m_Layer: 0
   m_Name: Spikes (78)
   m_TagString: DeadZone
@@ -8317,18 +7373,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 78
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &848374162
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 848374160}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &848374163
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8403,7 +7447,6 @@ GameObject:
   - component: {fileID: 856990250}
   - component: {fileID: 856990249}
   - component: {fileID: 856990248}
-  - component: {fileID: 856990247}
   m_Layer: 0
   m_Name: Exorcise (72)
   m_TagString: AliveZone
@@ -8425,18 +7468,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 72
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &856990247
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 856990245}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &856990248
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8511,7 +7542,6 @@ GameObject:
   - component: {fileID: 862867244}
   - component: {fileID: 862867243}
   - component: {fileID: 862867242}
-  - component: {fileID: 862867241}
   m_Layer: 0
   m_Name: Spikes (35)
   m_TagString: DeadZone
@@ -8533,18 +7563,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &862867241
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 862867239}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &862867242
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8619,7 +7637,6 @@ GameObject:
   - component: {fileID: 875153028}
   - component: {fileID: 875153027}
   - component: {fileID: 875153026}
-  - component: {fileID: 875153025}
   m_Layer: 0
   m_Name: Exorcise (38)
   m_TagString: AliveZone
@@ -8641,18 +7658,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &875153025
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 875153023}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &875153026
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8727,7 +7732,6 @@ GameObject:
   - component: {fileID: 888253547}
   - component: {fileID: 888253546}
   - component: {fileID: 888253545}
-  - component: {fileID: 888253544}
   m_Layer: 0
   m_Name: Spikes (61)
   m_TagString: DeadZone
@@ -8749,18 +7753,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 61
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &888253544
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 888253542}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &888253545
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9010,7 +8002,6 @@ GameObject:
   - component: {fileID: 931299365}
   - component: {fileID: 931299364}
   - component: {fileID: 931299363}
-  - component: {fileID: 931299362}
   m_Layer: 0
   m_Name: Spikes (28)
   m_TagString: DeadZone
@@ -9032,18 +8023,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &931299362
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 931299360}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &931299363
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9118,7 +8097,6 @@ GameObject:
   - component: {fileID: 931437882}
   - component: {fileID: 931437881}
   - component: {fileID: 931437880}
-  - component: {fileID: 931437879}
   m_Layer: 0
   m_Name: Exorcise (39)
   m_TagString: AliveZone
@@ -9140,18 +8118,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &931437879
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 931437877}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &931437880
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9214,6 +8180,38 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 931437877}
   m_Mesh: {fileID: -7582488396951073625, guid: 1c9944ca97219f74cb22bb7baf3a0762, type: 3}
+--- !u!1 &936901058
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 936901059}
+  m_Layer: 0
+  m_Name: FastTile Group
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &936901059
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 936901058}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 12.265455, y: -4.4359922, z: -0.91919965}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 710146991}
+  - {fileID: 1253234250}
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &959716785
 GameObject:
   m_ObjectHideFlags: 0
@@ -9226,7 +8224,6 @@ GameObject:
   - component: {fileID: 959716790}
   - component: {fileID: 959716789}
   - component: {fileID: 959716788}
-  - component: {fileID: 959716787}
   m_Layer: 0
   m_Name: Spikes (9)
   m_TagString: DeadZone
@@ -9248,18 +8245,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &959716787
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 959716785}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &959716788
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9429,7 +8414,6 @@ GameObject:
   - component: {fileID: 962600177}
   - component: {fileID: 962600176}
   - component: {fileID: 962600175}
-  - component: {fileID: 962600174}
   m_Layer: 0
   m_Name: Spikes (41)
   m_TagString: DeadZone
@@ -9451,18 +8435,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &962600174
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 962600172}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &962600175
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9537,7 +8509,6 @@ GameObject:
   - component: {fileID: 964729822}
   - component: {fileID: 964729821}
   - component: {fileID: 964729820}
-  - component: {fileID: 964729819}
   m_Layer: 0
   m_Name: Spikes (24)
   m_TagString: DeadZone
@@ -9559,18 +8530,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &964729819
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 964729817}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &964729820
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9645,7 +8604,6 @@ GameObject:
   - component: {fileID: 966638499}
   - component: {fileID: 966638498}
   - component: {fileID: 966638497}
-  - component: {fileID: 966638496}
   m_Layer: 0
   m_Name: Exorcise (43)
   m_TagString: AliveZone
@@ -9667,18 +8625,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &966638496
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 966638494}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &966638497
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9753,7 +8699,6 @@ GameObject:
   - component: {fileID: 969327495}
   - component: {fileID: 969327494}
   - component: {fileID: 969327493}
-  - component: {fileID: 969327492}
   m_Layer: 0
   m_Name: Exorcise (30)
   m_TagString: AliveZone
@@ -9775,18 +8720,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &969327492
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 969327490}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &969327493
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9861,7 +8794,6 @@ GameObject:
   - component: {fileID: 973116443}
   - component: {fileID: 973116442}
   - component: {fileID: 973116441}
-  - component: {fileID: 973116440}
   m_Layer: 0
   m_Name: Spikes (23)
   m_TagString: DeadZone
@@ -9883,18 +8815,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &973116440
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 973116438}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &973116441
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9969,7 +8889,6 @@ GameObject:
   - component: {fileID: 975303015}
   - component: {fileID: 975303014}
   - component: {fileID: 975303013}
-  - component: {fileID: 975303012}
   m_Layer: 0
   m_Name: Spikes (85)
   m_TagString: DeadZone
@@ -9991,18 +8910,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 85
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &975303012
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 975303010}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &975303013
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10077,7 +8984,6 @@ GameObject:
   - component: {fileID: 994051027}
   - component: {fileID: 994051026}
   - component: {fileID: 994051025}
-  - component: {fileID: 994051024}
   m_Layer: 0
   m_Name: Exorcise (20)
   m_TagString: AliveZone
@@ -10099,18 +9005,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &994051024
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 994051022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &994051025
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10185,7 +9079,6 @@ GameObject:
   - component: {fileID: 996379053}
   - component: {fileID: 996379052}
   - component: {fileID: 996379051}
-  - component: {fileID: 996379050}
   m_Layer: 0
   m_Name: Exorcise (26)
   m_TagString: AliveZone
@@ -10207,18 +9100,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &996379050
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 996379048}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &996379051
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10293,7 +9174,6 @@ GameObject:
   - component: {fileID: 1014989179}
   - component: {fileID: 1014989178}
   - component: {fileID: 1014989177}
-  - component: {fileID: 1014989176}
   m_Layer: 0
   m_Name: Spikes (4)
   m_TagString: DeadZone
@@ -10315,18 +9195,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1014989176
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1014989174}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1014989177
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10401,7 +9269,6 @@ GameObject:
   - component: {fileID: 1017647125}
   - component: {fileID: 1017647124}
   - component: {fileID: 1017647123}
-  - component: {fileID: 1017647122}
   m_Layer: 0
   m_Name: Spikes (47)
   m_TagString: DeadZone
@@ -10423,18 +9290,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1017647122
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1017647120}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1017647123
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10509,7 +9364,6 @@ GameObject:
   - component: {fileID: 1033414067}
   - component: {fileID: 1033414066}
   - component: {fileID: 1033414065}
-  - component: {fileID: 1033414064}
   m_Layer: 0
   m_Name: Spikes (72)
   m_TagString: DeadZone
@@ -10531,18 +9385,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 72
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1033414064
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1033414062}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1033414065
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10617,7 +9459,6 @@ GameObject:
   - component: {fileID: 1049649450}
   - component: {fileID: 1049649449}
   - component: {fileID: 1049649448}
-  - component: {fileID: 1049649447}
   m_Layer: 0
   m_Name: Spikes (65)
   m_TagString: DeadZone
@@ -10639,18 +9480,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 65
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1049649447
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1049649445}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1049649448
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10725,7 +9554,6 @@ GameObject:
   - component: {fileID: 1058929059}
   - component: {fileID: 1058929058}
   - component: {fileID: 1058929057}
-  - component: {fileID: 1058929056}
   m_Layer: 0
   m_Name: Spikes (3)
   m_TagString: DeadZone
@@ -10747,18 +9575,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1058929056
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1058929054}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1058929057
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10833,7 +9649,6 @@ GameObject:
   - component: {fileID: 1064033728}
   - component: {fileID: 1064033727}
   - component: {fileID: 1064033726}
-  - component: {fileID: 1064033725}
   m_Layer: 0
   m_Name: Exorcise (51)
   m_TagString: AliveZone
@@ -10855,18 +9670,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1064033725
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1064033723}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1064033726
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10941,7 +9744,6 @@ GameObject:
   - component: {fileID: 1075716141}
   - component: {fileID: 1075716140}
   - component: {fileID: 1075716139}
-  - component: {fileID: 1075716138}
   m_Layer: 0
   m_Name: Spikes (21)
   m_TagString: DeadZone
@@ -10963,18 +9765,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1075716138
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1075716136}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1075716139
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11144,7 +9934,6 @@ GameObject:
   - component: {fileID: 1117916153}
   - component: {fileID: 1117916152}
   - component: {fileID: 1117916151}
-  - component: {fileID: 1117916150}
   m_Layer: 0
   m_Name: Exorcise (19)
   m_TagString: AliveZone
@@ -11166,18 +9955,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1117916150
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1117916148}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1117916151
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11252,7 +10029,6 @@ GameObject:
   - component: {fileID: 1118007872}
   - component: {fileID: 1118007871}
   - component: {fileID: 1118007870}
-  - component: {fileID: 1118007869}
   m_Layer: 0
   m_Name: Exorcise (53)
   m_TagString: AliveZone
@@ -11274,18 +10050,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1118007869
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1118007867}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1118007870
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11441,7 +10205,6 @@ GameObject:
   - component: {fileID: 1153267694}
   - component: {fileID: 1153267693}
   - component: {fileID: 1153267692}
-  - component: {fileID: 1153267691}
   m_Layer: 0
   m_Name: Spikes (34)
   m_TagString: DeadZone
@@ -11463,18 +10226,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1153267691
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1153267689}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1153267692
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11549,7 +10300,6 @@ GameObject:
   - component: {fileID: 1153400360}
   - component: {fileID: 1153400359}
   - component: {fileID: 1153400358}
-  - component: {fileID: 1153400357}
   m_Layer: 0
   m_Name: Exorcise (24)
   m_TagString: AliveZone
@@ -11571,18 +10321,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1153400357
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1153400355}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1153400358
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11657,7 +10395,6 @@ GameObject:
   - component: {fileID: 1178200899}
   - component: {fileID: 1178200898}
   - component: {fileID: 1178200897}
-  - component: {fileID: 1178200896}
   m_Layer: 0
   m_Name: Spikes (50)
   m_TagString: DeadZone
@@ -11679,18 +10416,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1178200896
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1178200894}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1178200897
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11765,7 +10490,6 @@ GameObject:
   - component: {fileID: 1182708939}
   - component: {fileID: 1182708938}
   - component: {fileID: 1182708937}
-  - component: {fileID: 1182708936}
   m_Layer: 0
   m_Name: Spikes (18)
   m_TagString: DeadZone
@@ -11787,18 +10511,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1182708936
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1182708934}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1182708937
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11873,7 +10585,6 @@ GameObject:
   - component: {fileID: 1199357218}
   - component: {fileID: 1199357217}
   - component: {fileID: 1199357216}
-  - component: {fileID: 1199357215}
   m_Layer: 0
   m_Name: Spikes (39)
   m_TagString: DeadZone
@@ -11895,18 +10606,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1199357215
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1199357213}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1199357216
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11981,7 +10680,6 @@ GameObject:
   - component: {fileID: 1216428501}
   - component: {fileID: 1216428500}
   - component: {fileID: 1216428499}
-  - component: {fileID: 1216428498}
   m_Layer: 0
   m_Name: Spikes (8)
   m_TagString: DeadZone
@@ -12003,18 +10701,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1216428498
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1216428496}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1216428499
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12184,7 +10870,6 @@ GameObject:
   - component: {fileID: 1222622952}
   - component: {fileID: 1222622951}
   - component: {fileID: 1222622950}
-  - component: {fileID: 1222622949}
   m_Layer: 0
   m_Name: Exorcise (74)
   m_TagString: AliveZone
@@ -12206,18 +10891,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 74
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1222622949
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1222622947}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1222622950
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12292,7 +10965,6 @@ GameObject:
   - component: {fileID: 1223858626}
   - component: {fileID: 1223858625}
   - component: {fileID: 1223858624}
-  - component: {fileID: 1223858623}
   m_Layer: 0
   m_Name: Spikes (81)
   m_TagString: DeadZone
@@ -12314,18 +10986,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 81
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1223858623
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1223858621}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1223858624
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12400,7 +11060,6 @@ GameObject:
   - component: {fileID: 1248354889}
   - component: {fileID: 1248354888}
   - component: {fileID: 1248354887}
-  - component: {fileID: 1248354886}
   m_Layer: 0
   m_Name: Exorcise (79)
   m_TagString: AliveZone
@@ -12422,18 +11081,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 79
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1248354886
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1248354884}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1248354887
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12496,6 +11143,101 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1248354884}
   m_Mesh: {fileID: -7582488396951073625, guid: 1c9944ca97219f74cb22bb7baf3a0762, type: 3}
+--- !u!1 &1253234249
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1253234250}
+  - component: {fileID: 1253234253}
+  - component: {fileID: 1253234252}
+  - component: {fileID: 1253234251}
+  m_Layer: 0
+  m_Name: FastTile (1)
+  m_TagString: FastTile
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1253234250
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253234249}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.7654552, y: 4.2159925, z: 1.9192007}
+  m_LocalScale: {x: 1, y: 1, z: 13.999701}
+  m_Children: []
+  m_Father: {fileID: 936901059}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1253234251
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253234249}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1253234252
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253234249}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: dcfc8780e5bad154f8c4298d1809b60b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1253234253
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253234249}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1259346644
 GameObject:
   m_ObjectHideFlags: 0
@@ -12508,7 +11250,6 @@ GameObject:
   - component: {fileID: 1259346649}
   - component: {fileID: 1259346648}
   - component: {fileID: 1259346647}
-  - component: {fileID: 1259346646}
   m_Layer: 0
   m_Name: Spikes (13)
   m_TagString: DeadZone
@@ -12530,18 +11271,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1259346646
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1259346644}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1259346647
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12616,7 +11345,6 @@ GameObject:
   - component: {fileID: 1267150736}
   - component: {fileID: 1267150735}
   - component: {fileID: 1267150734}
-  - component: {fileID: 1267150733}
   m_Layer: 0
   m_Name: Spikes (37)
   m_TagString: DeadZone
@@ -12638,18 +11366,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1267150733
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1267150731}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1267150734
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12724,7 +11440,6 @@ GameObject:
   - component: {fileID: 1269885312}
   - component: {fileID: 1269885311}
   - component: {fileID: 1269885310}
-  - component: {fileID: 1269885309}
   m_Layer: 0
   m_Name: Exorcise (14)
   m_TagString: AliveZone
@@ -12746,18 +11461,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1269885309
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1269885307}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1269885310
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12832,7 +11535,6 @@ GameObject:
   - component: {fileID: 1273777215}
   - component: {fileID: 1273777214}
   - component: {fileID: 1273777213}
-  - component: {fileID: 1273777212}
   m_Layer: 0
   m_Name: Exorcise (40)
   m_TagString: AliveZone
@@ -12854,18 +11556,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1273777212
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1273777210}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1273777213
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12940,7 +11630,6 @@ GameObject:
   - component: {fileID: 1293389459}
   - component: {fileID: 1293389458}
   - component: {fileID: 1293389457}
-  - component: {fileID: 1293389456}
   m_Layer: 0
   m_Name: Exorcise (66)
   m_TagString: AliveZone
@@ -12962,18 +11651,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 65
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1293389456
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1293389454}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1293389457
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13048,7 +11725,6 @@ GameObject:
   - component: {fileID: 1318119694}
   - component: {fileID: 1318119693}
   - component: {fileID: 1318119692}
-  - component: {fileID: 1318119691}
   m_Layer: 0
   m_Name: Spikes (42)
   m_TagString: DeadZone
@@ -13070,18 +11746,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1318119691
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1318119689}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1318119692
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13156,7 +11820,6 @@ GameObject:
   - component: {fileID: 1375928159}
   - component: {fileID: 1375928158}
   - component: {fileID: 1375928157}
-  - component: {fileID: 1375928156}
   m_Layer: 0
   m_Name: Spikes (74)
   m_TagString: DeadZone
@@ -13178,18 +11841,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 74
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1375928156
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1375928154}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1375928157
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13264,7 +11915,6 @@ GameObject:
   - component: {fileID: 1406341785}
   - component: {fileID: 1406341784}
   - component: {fileID: 1406341783}
-  - component: {fileID: 1406341782}
   m_Layer: 0
   m_Name: Spikes (31)
   m_TagString: DeadZone
@@ -13286,18 +11936,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1406341782
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1406341780}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1406341783
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13372,7 +12010,6 @@ GameObject:
   - component: {fileID: 1408944040}
   - component: {fileID: 1408944039}
   - component: {fileID: 1408944038}
-  - component: {fileID: 1408944037}
   m_Layer: 0
   m_Name: Exorcise (15)
   m_TagString: AliveZone
@@ -13394,18 +12031,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1408944037
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1408944035}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1408944038
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13704,7 +12329,6 @@ GameObject:
   - component: {fileID: 1477996835}
   - component: {fileID: 1477996834}
   - component: {fileID: 1477996833}
-  - component: {fileID: 1477996832}
   m_Layer: 0
   m_Name: Exorcise (31)
   m_TagString: AliveZone
@@ -13726,18 +12350,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1477996832
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1477996830}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1477996833
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13812,7 +12424,6 @@ GameObject:
   - component: {fileID: 1493311329}
   - component: {fileID: 1493311328}
   - component: {fileID: 1493311327}
-  - component: {fileID: 1493311326}
   m_Layer: 0
   m_Name: Exorcise (55)
   m_TagString: AliveZone
@@ -13834,18 +12445,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1493311326
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1493311324}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1493311327
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13920,7 +12519,6 @@ GameObject:
   - component: {fileID: 1498537035}
   - component: {fileID: 1498537034}
   - component: {fileID: 1498537033}
-  - component: {fileID: 1498537032}
   m_Layer: 0
   m_Name: Exorcise (48)
   m_TagString: AliveZone
@@ -13942,18 +12540,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1498537032
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1498537030}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1498537033
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14028,7 +12614,6 @@ GameObject:
   - component: {fileID: 1501536311}
   - component: {fileID: 1501536310}
   - component: {fileID: 1501536309}
-  - component: {fileID: 1501536308}
   m_Layer: 0
   m_Name: Exorcise (85)
   m_TagString: AliveZone
@@ -14050,18 +12635,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 85
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1501536308
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1501536306}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1501536309
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14215,7 +12788,6 @@ GameObject:
   - component: {fileID: 1507389083}
   - component: {fileID: 1507389082}
   - component: {fileID: 1507389081}
-  - component: {fileID: 1507389080}
   m_Layer: 0
   m_Name: Exorcise (71)
   m_TagString: AliveZone
@@ -14237,18 +12809,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 71
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1507389080
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1507389078}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1507389081
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14323,7 +12883,6 @@ GameObject:
   - component: {fileID: 1510000997}
   - component: {fileID: 1510000996}
   - component: {fileID: 1510000995}
-  - component: {fileID: 1510000994}
   m_Layer: 0
   m_Name: Spikes (75)
   m_TagString: DeadZone
@@ -14345,18 +12904,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 75
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1510000994
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1510000992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1510000995
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14431,7 +12978,6 @@ GameObject:
   - component: {fileID: 1534404851}
   - component: {fileID: 1534404850}
   - component: {fileID: 1534404849}
-  - component: {fileID: 1534404848}
   m_Layer: 0
   m_Name: Exorcise (25)
   m_TagString: AliveZone
@@ -14453,18 +12999,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1534404848
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1534404846}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1534404849
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14539,7 +13073,6 @@ GameObject:
   - component: {fileID: 1535691119}
   - component: {fileID: 1535691118}
   - component: {fileID: 1535691117}
-  - component: {fileID: 1535691116}
   m_Layer: 0
   m_Name: Spikes (86)
   m_TagString: DeadZone
@@ -14561,18 +13094,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 86
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1535691116
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1535691114}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1535691117
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14647,7 +13168,6 @@ GameObject:
   - component: {fileID: 1550132422}
   - component: {fileID: 1550132421}
   - component: {fileID: 1550132420}
-  - component: {fileID: 1550132419}
   m_Layer: 0
   m_Name: Exorcise (88)
   m_TagString: AliveZone
@@ -14669,18 +13189,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 88
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1550132419
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1550132417}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1550132420
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14755,7 +13263,6 @@ GameObject:
   - component: {fileID: 1556570029}
   - component: {fileID: 1556570028}
   - component: {fileID: 1556570027}
-  - component: {fileID: 1556570026}
   m_Layer: 0
   m_Name: Exorcise (60)
   m_TagString: AliveZone
@@ -14777,18 +13284,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 59
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1556570026
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1556570024}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1556570027
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15053,7 +13548,6 @@ GameObject:
   - component: {fileID: 1571392546}
   - component: {fileID: 1571392545}
   - component: {fileID: 1571392544}
-  - component: {fileID: 1571392543}
   m_Layer: 0
   m_Name: Exorcise (91)
   m_TagString: AliveZone
@@ -15075,18 +13569,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 91
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1571392543
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1571392541}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1571392544
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15161,7 +13643,6 @@ GameObject:
   - component: {fileID: 1572025205}
   - component: {fileID: 1572025204}
   - component: {fileID: 1572025203}
-  - component: {fileID: 1572025202}
   m_Layer: 0
   m_Name: Exorcise (4)
   m_TagString: AliveZone
@@ -15183,18 +13664,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1572025202
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1572025200}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1572025203
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15269,7 +13738,6 @@ GameObject:
   - component: {fileID: 1573404477}
   - component: {fileID: 1573404476}
   - component: {fileID: 1573404475}
-  - component: {fileID: 1573404474}
   m_Layer: 0
   m_Name: Spikes (71)
   m_TagString: DeadZone
@@ -15291,18 +13759,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 71
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1573404474
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1573404472}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1573404475
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15377,7 +13833,6 @@ GameObject:
   - component: {fileID: 1580266180}
   - component: {fileID: 1580266179}
   - component: {fileID: 1580266178}
-  - component: {fileID: 1580266177}
   m_Layer: 0
   m_Name: Exorcise (56)
   m_TagString: AliveZone
@@ -15399,18 +13854,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1580266177
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1580266175}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1580266178
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15485,7 +13928,6 @@ GameObject:
   - component: {fileID: 1607143417}
   - component: {fileID: 1607143416}
   - component: {fileID: 1607143415}
-  - component: {fileID: 1607143414}
   m_Layer: 0
   m_Name: Exorcise (28)
   m_TagString: AliveZone
@@ -15507,18 +13949,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1607143414
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1607143412}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1607143415
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15673,7 +14103,6 @@ GameObject:
   - component: {fileID: 1630004785}
   - component: {fileID: 1630004784}
   - component: {fileID: 1630004783}
-  - component: {fileID: 1630004782}
   m_Layer: 0
   m_Name: Spikes (49)
   m_TagString: DeadZone
@@ -15695,18 +14124,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1630004782
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1630004780}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1630004783
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15914,7 +14331,6 @@ GameObject:
   - component: {fileID: 1642768083}
   - component: {fileID: 1642768082}
   - component: {fileID: 1642768081}
-  - component: {fileID: 1642768080}
   m_Layer: 0
   m_Name: Spikes (59)
   m_TagString: DeadZone
@@ -15936,18 +14352,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 59
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1642768080
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1642768078}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1642768081
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16022,7 +14426,6 @@ GameObject:
   - component: {fileID: 1650908978}
   - component: {fileID: 1650908977}
   - component: {fileID: 1650908976}
-  - component: {fileID: 1650908975}
   m_Layer: 0
   m_Name: Exorcise (62)
   m_TagString: AliveZone
@@ -16044,18 +14447,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 61
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1650908975
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1650908973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1650908976
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16130,7 +14521,6 @@ GameObject:
   - component: {fileID: 1671306060}
   - component: {fileID: 1671306059}
   - component: {fileID: 1671306058}
-  - component: {fileID: 1671306057}
   m_Layer: 0
   m_Name: Spikes (51)
   m_TagString: DeadZone
@@ -16152,18 +14542,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1671306057
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1671306055}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1671306058
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16238,7 +14616,6 @@ GameObject:
   - component: {fileID: 1685459720}
   - component: {fileID: 1685459719}
   - component: {fileID: 1685459718}
-  - component: {fileID: 1685459717}
   m_Layer: 0
   m_Name: Spikes (57)
   m_TagString: DeadZone
@@ -16260,18 +14637,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 57
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1685459717
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1685459715}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1685459718
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16346,7 +14711,6 @@ GameObject:
   - component: {fileID: 1693615707}
   - component: {fileID: 1693615706}
   - component: {fileID: 1693615705}
-  - component: {fileID: 1693615704}
   m_Layer: 0
   m_Name: Spikes (45)
   m_TagString: DeadZone
@@ -16368,18 +14732,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1693615704
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1693615702}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1693615705
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16533,7 +14885,6 @@ GameObject:
   - component: {fileID: 1702057237}
   - component: {fileID: 1702057236}
   - component: {fileID: 1702057235}
-  - component: {fileID: 1702057234}
   m_Layer: 0
   m_Name: Spikes (20)
   m_TagString: DeadZone
@@ -16555,18 +14906,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1702057234
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702057232}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1702057235
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16641,7 +14980,6 @@ GameObject:
   - component: {fileID: 1720990072}
   - component: {fileID: 1720990071}
   - component: {fileID: 1720990070}
-  - component: {fileID: 1720990069}
   m_Layer: 0
   m_Name: Exorcise (67)
   m_TagString: AliveZone
@@ -16663,18 +15001,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 66
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1720990069
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1720990067}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1720990070
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16872,7 +15198,6 @@ GameObject:
   - component: {fileID: 1743943204}
   - component: {fileID: 1743943203}
   - component: {fileID: 1743943202}
-  - component: {fileID: 1743943201}
   m_Layer: 0
   m_Name: Spikes (69)
   m_TagString: DeadZone
@@ -16894,18 +15219,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 69
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1743943201
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1743943199}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1743943202
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16980,7 +15293,6 @@ GameObject:
   - component: {fileID: 1752221912}
   - component: {fileID: 1752221911}
   - component: {fileID: 1752221910}
-  - component: {fileID: 1752221909}
   m_Layer: 0
   m_Name: Spikes (83)
   m_TagString: DeadZone
@@ -17002,18 +15314,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 83
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1752221909
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1752221907}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1752221910
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17163,7 +15463,6 @@ GameObject:
   - component: {fileID: 1776710825}
   - component: {fileID: 1776710824}
   - component: {fileID: 1776710823}
-  - component: {fileID: 1776710822}
   m_Layer: 0
   m_Name: Spikes (14)
   m_TagString: DeadZone
@@ -17185,18 +15484,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1776710822
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1776710820}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1776710823
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17271,7 +15558,6 @@ GameObject:
   - component: {fileID: 1793376568}
   - component: {fileID: 1793376567}
   - component: {fileID: 1793376566}
-  - component: {fileID: 1793376565}
   m_Layer: 0
   m_Name: Exorcise (54)
   m_TagString: AliveZone
@@ -17293,18 +15579,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1793376565
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1793376563}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1793376566
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17379,7 +15653,6 @@ GameObject:
   - component: {fileID: 1797658843}
   - component: {fileID: 1797658842}
   - component: {fileID: 1797658841}
-  - component: {fileID: 1797658840}
   m_Layer: 0
   m_Name: Exorcise (45)
   m_TagString: AliveZone
@@ -17401,18 +15674,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1797658840
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1797658838}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1797658841
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17582,7 +15843,6 @@ GameObject:
   - component: {fileID: 1804100414}
   - component: {fileID: 1804100413}
   - component: {fileID: 1804100412}
-  - component: {fileID: 1804100411}
   m_Layer: 0
   m_Name: Exorcise (34)
   m_TagString: AliveZone
@@ -17604,18 +15864,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1804100411
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1804100409}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1804100412
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17865,7 +16113,6 @@ GameObject:
   - component: {fileID: 1834722747}
   - component: {fileID: 1834722746}
   - component: {fileID: 1834722745}
-  - component: {fileID: 1834722744}
   m_Layer: 0
   m_Name: Spikes (7)
   m_TagString: DeadZone
@@ -17887,18 +16134,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1834722744
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1834722742}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1834722745
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17973,7 +16208,6 @@ GameObject:
   - component: {fileID: 1859295837}
   - component: {fileID: 1859295836}
   - component: {fileID: 1859295835}
-  - component: {fileID: 1859295834}
   m_Layer: 0
   m_Name: Exorcise (8)
   m_TagString: AliveZone
@@ -17995,18 +16229,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1859295834
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1859295832}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1859295835
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18081,7 +16303,6 @@ GameObject:
   - component: {fileID: 1861714343}
   - component: {fileID: 1861714342}
   - component: {fileID: 1861714341}
-  - component: {fileID: 1861714340}
   m_Layer: 0
   m_Name: Spikes (73)
   m_TagString: DeadZone
@@ -18103,18 +16324,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 73
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1861714340
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1861714338}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1861714341
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18189,7 +16398,6 @@ GameObject:
   - component: {fileID: 1865851407}
   - component: {fileID: 1865851406}
   - component: {fileID: 1865851405}
-  - component: {fileID: 1865851404}
   m_Layer: 0
   m_Name: Exorcise (82)
   m_TagString: AliveZone
@@ -18211,18 +16419,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 82
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1865851404
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1865851402}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1865851405
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18297,7 +16493,6 @@ GameObject:
   - component: {fileID: 1875801175}
   - component: {fileID: 1875801174}
   - component: {fileID: 1875801173}
-  - component: {fileID: 1875801172}
   m_Layer: 0
   m_Name: Exorcise (18)
   m_TagString: AliveZone
@@ -18319,18 +16514,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1875801172
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1875801170}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1875801173
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18405,7 +16588,6 @@ GameObject:
   - component: {fileID: 1881790998}
   - component: {fileID: 1881790997}
   - component: {fileID: 1881790996}
-  - component: {fileID: 1881790995}
   m_Layer: 0
   m_Name: Exorcise (10)
   m_TagString: AliveZone
@@ -18427,18 +16609,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1881790995
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1881790993}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1881790996
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18703,7 +16873,6 @@ GameObject:
   - component: {fileID: 1905174740}
   - component: {fileID: 1905174739}
   - component: {fileID: 1905174738}
-  - component: {fileID: 1905174737}
   m_Layer: 0
   m_Name: Exorcise (36)
   m_TagString: AliveZone
@@ -18725,18 +16894,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1905174737
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1905174735}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1905174738
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18811,7 +16968,6 @@ GameObject:
   - component: {fileID: 1913629963}
   - component: {fileID: 1913629962}
   - component: {fileID: 1913629961}
-  - component: {fileID: 1913629960}
   m_Layer: 0
   m_Name: Exorcise (69)
   m_TagString: AliveZone
@@ -18833,18 +16989,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 68
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1913629960
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1913629958}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1913629961
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18919,7 +17063,6 @@ GameObject:
   - component: {fileID: 1926020330}
   - component: {fileID: 1926020329}
   - component: {fileID: 1926020328}
-  - component: {fileID: 1926020327}
   m_Layer: 0
   m_Name: Spikes (55)
   m_TagString: DeadZone
@@ -18941,18 +17084,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1926020327
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1926020325}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1926020328
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19027,7 +17158,6 @@ GameObject:
   - component: {fileID: 1933724909}
   - component: {fileID: 1933724908}
   - component: {fileID: 1933724907}
-  - component: {fileID: 1933724906}
   m_Layer: 0
   m_Name: Spikes (26)
   m_TagString: DeadZone
@@ -19049,18 +17179,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1933724906
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1933724904}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1933724907
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19135,7 +17253,6 @@ GameObject:
   - component: {fileID: 1948372587}
   - component: {fileID: 1948372586}
   - component: {fileID: 1948372585}
-  - component: {fileID: 1948372584}
   m_Layer: 0
   m_Name: Spikes (68)
   m_TagString: DeadZone
@@ -19157,18 +17274,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 68
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1948372584
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1948372582}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1948372585
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19243,7 +17348,6 @@ GameObject:
   - component: {fileID: 1949873994}
   - component: {fileID: 1949873993}
   - component: {fileID: 1949873992}
-  - component: {fileID: 1949873991}
   m_Layer: 0
   m_Name: Exorcise (3)
   m_TagString: AliveZone
@@ -19265,18 +17369,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1949873991
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1949873989}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1949873992
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19351,7 +17443,6 @@ GameObject:
   - component: {fileID: 1949977073}
   - component: {fileID: 1949977072}
   - component: {fileID: 1949977071}
-  - component: {fileID: 1949977070}
   m_Layer: 0
   m_Name: Spikes (77)
   m_TagString: DeadZone
@@ -19373,18 +17464,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 77
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1949977070
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1949977068}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1949977071
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19459,7 +17538,6 @@ GameObject:
   - component: {fileID: 1957462309}
   - component: {fileID: 1957462308}
   - component: {fileID: 1957462307}
-  - component: {fileID: 1957462306}
   m_Layer: 0
   m_Name: Spikes (43)
   m_TagString: DeadZone
@@ -19481,18 +17559,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1957462306
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1957462304}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1957462307
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19567,7 +17633,6 @@ GameObject:
   - component: {fileID: 1968428869}
   - component: {fileID: 1968428868}
   - component: {fileID: 1968428867}
-  - component: {fileID: 1968428866}
   m_Layer: 0
   m_Name: Exorcise (5)
   m_TagString: AliveZone
@@ -19589,18 +17654,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1968428866
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1968428864}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1968428867
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19675,7 +17728,6 @@ GameObject:
   - component: {fileID: 1981619183}
   - component: {fileID: 1981619182}
   - component: {fileID: 1981619181}
-  - component: {fileID: 1981619180}
   m_Layer: 0
   m_Name: Spikes (70)
   m_TagString: DeadZone
@@ -19697,18 +17749,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 70
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1981619180
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1981619178}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1981619181
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19783,7 +17823,6 @@ GameObject:
   - component: {fileID: 1983029375}
   - component: {fileID: 1983029374}
   - component: {fileID: 1983029373}
-  - component: {fileID: 1983029372}
   m_Layer: 0
   m_Name: Spikes (15)
   m_TagString: DeadZone
@@ -19805,18 +17844,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1983029372
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1983029370}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1983029373
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19891,7 +17918,6 @@ GameObject:
   - component: {fileID: 1988018848}
   - component: {fileID: 1988018847}
   - component: {fileID: 1988018846}
-  - component: {fileID: 1988018845}
   m_Layer: 0
   m_Name: Spikes (76)
   m_TagString: DeadZone
@@ -19913,18 +17939,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 76
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &1988018845
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1988018843}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1988018846
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19999,7 +18013,6 @@ GameObject:
   - component: {fileID: 1992755000}
   - component: {fileID: 1992754999}
   - component: {fileID: 1992754998}
-  - component: {fileID: 1992754997}
   m_Layer: 0
   m_Name: Exorcise (78)
   m_TagString: AliveZone
@@ -20021,18 +18034,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 78
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1992754997
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1992754995}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1992754998
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20202,7 +18203,6 @@ GameObject:
   - component: {fileID: 2008452068}
   - component: {fileID: 2008452067}
   - component: {fileID: 2008452066}
-  - component: {fileID: 2008452065}
   m_Layer: 0
   m_Name: Exorcise (1)
   m_TagString: AliveZone
@@ -20224,18 +18224,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &2008452065
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2008452063}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &2008452066
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20389,7 +18377,6 @@ GameObject:
   - component: {fileID: 2020777635}
   - component: {fileID: 2020777634}
   - component: {fileID: 2020777633}
-  - component: {fileID: 2020777632}
   m_Layer: 0
   m_Name: Exorcise (46)
   m_TagString: AliveZone
@@ -20411,18 +18398,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &2020777632
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2020777630}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &2020777633
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20497,7 +18472,6 @@ GameObject:
   - component: {fileID: 2025011230}
   - component: {fileID: 2025011229}
   - component: {fileID: 2025011228}
-  - component: {fileID: 2025011227}
   m_Layer: 0
   m_Name: Exorcise (37)
   m_TagString: AliveZone
@@ -20519,18 +18493,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &2025011227
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2025011225}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &2025011228
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20605,7 +18567,6 @@ GameObject:
   - component: {fileID: 2029863189}
   - component: {fileID: 2029863188}
   - component: {fileID: 2029863187}
-  - component: {fileID: 2029863186}
   m_Layer: 0
   m_Name: Exorcise (70)
   m_TagString: AliveZone
@@ -20627,18 +18588,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 69
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &2029863186
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2029863184}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &2029863187
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20713,7 +18662,6 @@ GameObject:
   - component: {fileID: 2048068107}
   - component: {fileID: 2048068106}
   - component: {fileID: 2048068105}
-  - component: {fileID: 2048068104}
   m_Layer: 0
   m_Name: Spikes (22)
   m_TagString: DeadZone
@@ -20735,18 +18683,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &2048068104
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2048068102}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &2048068105
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20821,7 +18757,6 @@ GameObject:
   - component: {fileID: 2049725274}
   - component: {fileID: 2049725273}
   - component: {fileID: 2049725272}
-  - component: {fileID: 2049725271}
   m_Layer: 0
   m_Name: Spikes (33)
   m_TagString: DeadZone
@@ -20843,18 +18778,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &2049725271
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2049725269}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &2049725272
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20929,7 +18852,6 @@ GameObject:
   - component: {fileID: 2049771623}
   - component: {fileID: 2049771622}
   - component: {fileID: 2049771621}
-  - component: {fileID: 2049771620}
   m_Layer: 0
   m_Name: Spikes (12)
   m_TagString: DeadZone
@@ -20951,18 +18873,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &2049771620
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2049771618}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &2049771621
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21037,7 +18947,6 @@ GameObject:
   - component: {fileID: 2055615376}
   - component: {fileID: 2055615375}
   - component: {fileID: 2055615374}
-  - component: {fileID: 2055615373}
   m_Layer: 0
   m_Name: Exorcise (32)
   m_TagString: AliveZone
@@ -21059,18 +18968,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &2055615373
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2055615371}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &2055615374
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21145,7 +19042,6 @@ GameObject:
   - component: {fileID: 2068093465}
   - component: {fileID: 2068093464}
   - component: {fileID: 2068093463}
-  - component: {fileID: 2068093462}
   m_Layer: 0
   m_Name: Exorcise (68)
   m_TagString: AliveZone
@@ -21167,18 +19063,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 67
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &2068093462
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2068093460}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &2068093463
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21253,7 +19137,6 @@ GameObject:
   - component: {fileID: 2069255329}
   - component: {fileID: 2069255328}
   - component: {fileID: 2069255327}
-  - component: {fileID: 2069255326}
   m_Layer: 0
   m_Name: Exorcise (49)
   m_TagString: AliveZone
@@ -21275,18 +19158,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &2069255326
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2069255324}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &2069255327
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21361,7 +19232,6 @@ GameObject:
   - component: {fileID: 2071675590}
   - component: {fileID: 2071675589}
   - component: {fileID: 2071675588}
-  - component: {fileID: 2071675587}
   m_Layer: 0
   m_Name: Spikes (87)
   m_TagString: DeadZone
@@ -21383,18 +19253,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 87
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &2071675587
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2071675585}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &2071675588
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21469,7 +19327,6 @@ GameObject:
   - component: {fileID: 2075919985}
   - component: {fileID: 2075919984}
   - component: {fileID: 2075919983}
-  - component: {fileID: 2075919982}
   m_Layer: 0
   m_Name: Exorcise (16)
   m_TagString: AliveZone
@@ -21491,18 +19348,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &2075919982
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2075919980}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &2075919983
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21577,7 +19422,6 @@ GameObject:
   - component: {fileID: 2080692782}
   - component: {fileID: 2080692781}
   - component: {fileID: 2080692780}
-  - component: {fileID: 2080692779}
   m_Layer: 0
   m_Name: Exorcise (22)
   m_TagString: AliveZone
@@ -21599,18 +19443,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &2080692779
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2080692777}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &2080692780
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21685,7 +19517,6 @@ GameObject:
   - component: {fileID: 2096283709}
   - component: {fileID: 2096283708}
   - component: {fileID: 2096283707}
-  - component: {fileID: 2096283706}
   m_Layer: 0
   m_Name: Spikes (66)
   m_TagString: DeadZone
@@ -21707,18 +19538,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 66
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &2096283706
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2096283704}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &2096283707
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21854,7 +19673,6 @@ GameObject:
   - component: {fileID: 2105118035}
   - component: {fileID: 2105118034}
   - component: {fileID: 2105118033}
-  - component: {fileID: 2105118032}
   m_Layer: 0
   m_Name: Exorcise (89)
   m_TagString: AliveZone
@@ -21876,18 +19694,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 89
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &2105118032
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2105118030}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &2105118033
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22084,7 +19890,6 @@ GameObject:
   - component: {fileID: 2115636681}
   - component: {fileID: 2115636680}
   - component: {fileID: 2115636679}
-  - component: {fileID: 2115636678}
   m_Layer: 0
   m_Name: Exorcise (50)
   m_TagString: AliveZone
@@ -22106,18 +19911,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &2115636678
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2115636676}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &2115636679
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22192,7 +19985,6 @@ GameObject:
   - component: {fileID: 2120212763}
   - component: {fileID: 2120212762}
   - component: {fileID: 2120212761}
-  - component: {fileID: 2120212760}
   m_Layer: 0
   m_Name: Spikes (16)
   m_TagString: DeadZone
@@ -22214,18 +20006,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &2120212760
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2120212758}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &2120212761
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22300,7 +20080,6 @@ GameObject:
   - component: {fileID: 2122116461}
   - component: {fileID: 2122116460}
   - component: {fileID: 2122116459}
-  - component: {fileID: 2122116458}
   m_Layer: 0
   m_Name: Spikes (40)
   m_TagString: DeadZone
@@ -22322,18 +20101,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &2122116458
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2122116456}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &2122116459
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22408,7 +20175,6 @@ GameObject:
   - component: {fileID: 2125317990}
   - component: {fileID: 2125317989}
   - component: {fileID: 2125317988}
-  - component: {fileID: 2125317987}
   m_Layer: 0
   m_Name: Exorcise (52)
   m_TagString: AliveZone
@@ -22430,18 +20196,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &2125317987
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2125317985}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &2125317988
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22516,7 +20270,6 @@ GameObject:
   - component: {fileID: 2127006021}
   - component: {fileID: 2127006020}
   - component: {fileID: 2127006019}
-  - component: {fileID: 2127006018}
   m_Layer: 0
   m_Name: Spikes (46)
   m_TagString: DeadZone
@@ -22538,18 +20291,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &2127006018
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2127006016}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &2127006019
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22624,7 +20365,6 @@ GameObject:
   - component: {fileID: 2137701439}
   - component: {fileID: 2137701438}
   - component: {fileID: 2137701437}
-  - component: {fileID: 2137701436}
   m_Layer: 0
   m_Name: Spikes (1)
   m_TagString: DeadZone
@@ -22646,18 +20386,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &2137701436
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2137701434}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &2137701437
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22732,7 +20460,6 @@ GameObject:
   - component: {fileID: 2142731386}
   - component: {fileID: 2142731385}
   - component: {fileID: 2142731384}
-  - component: {fileID: 2142731383}
   m_Layer: 0
   m_Name: Exorcise (86)
   m_TagString: AliveZone
@@ -22754,18 +20481,6 @@ Transform:
   m_Father: {fileID: 2109926859}
   m_RootOrder: 86
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &2142731383
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2142731381}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b4c8a4413e7ade4cb8331bd31869a16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &2142731384
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22840,7 +20555,6 @@ GameObject:
   - component: {fileID: 2142953812}
   - component: {fileID: 2142953811}
   - component: {fileID: 2142953810}
-  - component: {fileID: 2142953809}
   m_Layer: 0
   m_Name: Spikes (29)
   m_TagString: DeadZone
@@ -22862,18 +20576,6 @@ Transform:
   m_Father: {fileID: 1466806923}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!114 &2142953809
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2142953807}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b6dbdcaf3b2d544b00cb4b6a5799fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &2142953810
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22936,6 +20638,68 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2142953807}
   m_Mesh: {fileID: -9113646534211321542, guid: d0d1a0c44d4850640b1dcb78f9557d37, type: 3}
+--- !u!1001 &2335770716213849197
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2109926859}
+    m_Modifications:
+    - target: {fileID: 2335770716111718742, guid: 302e12920fee16c45816f3dc0237fa68, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2335770716111718742, guid: 302e12920fee16c45816f3dc0237fa68, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.08999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 2335770716111718742, guid: 302e12920fee16c45816f3dc0237fa68, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.7661386
+      objectReference: {fileID: 0}
+    - target: {fileID: 2335770716111718742, guid: 302e12920fee16c45816f3dc0237fa68, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 2335770716111718742, guid: 302e12920fee16c45816f3dc0237fa68, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2335770716111718742, guid: 302e12920fee16c45816f3dc0237fa68, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2335770716111718742, guid: 302e12920fee16c45816f3dc0237fa68, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2335770716111718742, guid: 302e12920fee16c45816f3dc0237fa68, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2335770716111718742, guid: 302e12920fee16c45816f3dc0237fa68, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2335770716111718742, guid: 302e12920fee16c45816f3dc0237fa68, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2335770716111718742, guid: 302e12920fee16c45816f3dc0237fa68, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2335770716111718746, guid: 302e12920fee16c45816f3dc0237fa68, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2335770716111718747, guid: 302e12920fee16c45816f3dc0237fa68, type: 3}
+      propertyPath: m_Name
+      value: Exorcise
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2335770716111718746, guid: 302e12920fee16c45816f3dc0237fa68, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 302e12920fee16c45816f3dc0237fa68, type: 3}
 --- !u!1001 &6278265656620641437
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23033,3 +20797,65 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 604dbddf60463e64e8a0858eb6b6957b, type: 3}
+--- !u!1001 &8865209493149976755
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1466806923}
+    m_Modifications:
+    - target: {fileID: 8865209493352651193, guid: 8ec3ed13195b44542bcf523aaac986e0, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8865209493352651194, guid: 8ec3ed13195b44542bcf523aaac986e0, type: 3}
+      propertyPath: m_Name
+      value: Spikes
+      objectReference: {fileID: 0}
+    - target: {fileID: 8865209493352651197, guid: 8ec3ed13195b44542bcf523aaac986e0, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8865209493352651197, guid: 8ec3ed13195b44542bcf523aaac986e0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 8865209493352651197, guid: 8ec3ed13195b44542bcf523aaac986e0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.2861385
+      objectReference: {fileID: 0}
+    - target: {fileID: 8865209493352651197, guid: 8ec3ed13195b44542bcf523aaac986e0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 8865209493352651197, guid: 8ec3ed13195b44542bcf523aaac986e0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8865209493352651197, guid: 8ec3ed13195b44542bcf523aaac986e0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8865209493352651197, guid: 8ec3ed13195b44542bcf523aaac986e0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8865209493352651197, guid: 8ec3ed13195b44542bcf523aaac986e0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8865209493352651197, guid: 8ec3ed13195b44542bcf523aaac986e0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8865209493352651197, guid: 8ec3ed13195b44542bcf523aaac986e0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8865209493352651197, guid: 8ec3ed13195b44542bcf523aaac986e0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8865209493352651193, guid: 8ec3ed13195b44542bcf523aaac986e0, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 8ec3ed13195b44542bcf523aaac986e0, type: 3}

@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         Time.timeScale = 1;
+        DontDestroyOnLoad(gameObject);
     }
     private void Update()
     {
@@ -30,18 +31,6 @@ public class PlayerController : MonoBehaviour
     }
 
     public void OnMove(InputAction.CallbackContext ctx) => movementInput = ctx.ReadValue<Vector2>();
-    // public void PlayerSelect(InputAction.CallbackContext ctx) //=> playerSelectionInput = ctx.action.triggered;
-    // {
-    //     if (ctx.action.enabled)
-    //     {
-    //         playerSelectionInput = true;
-    //         Debug.Log(playerSelectionInput);
-    //     }
-    //     else if (ctx.action.)
-    //     {
-    //         playerSelectionInput = false;
-    //     }
-    // }
 
     void PlayerMovement()
     {
@@ -90,6 +79,24 @@ public class PlayerController : MonoBehaviour
         {
             isDefeated = true;
 
+        }
+        else if (player.tag == "Alive" || player.tag == "Dead")
+        {
+            if (other.tag == "FastTile")
+            {
+                speed = 10;
+            }
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (player.tag == "Alive" || player.tag == "Dead")
+        {
+            if (other.tag == "FastTile")
+            {
+                speed = 5;
+            }
         }
     }
     void PlayerDefeated()

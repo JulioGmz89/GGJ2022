@@ -11,12 +11,33 @@ public class PlayerInputManagerScript : MonoBehaviour
     public GameObject[] scoreText;
     public Text[] playerScore;
 
-    private List<GameObject> players = new List<GameObject>();
+    public List<GameObject> players = new List<GameObject>();
 
     public Text winText;
     public GameObject playerWinText;
     public GameObject returnButton;
 
+    void Awake()
+    {
+
+    }
+
+    void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        if (scene.name == "TestMove")
+        {
+            for (int i = 0; i < players.Count; i++)
+            {
+                DontDestroyOnLoad(players[i]);
+                players[i].transform.position = spawnLocations[i].position;
+            }
+        }
+    }
     void OnPlayerJoined(PlayerInput playerInput)
     {
         players.Add(playerInput.gameObject);
@@ -49,6 +70,7 @@ public class PlayerInputManagerScript : MonoBehaviour
 
     void Update()
     {
+
         for (int i = 0; i < players.Count; i++)
         {
             playerScore[i].text = players[i].GetComponent<PlayerDetails>().score.ToString("0");
