@@ -16,13 +16,21 @@ public class GodModeController : MonoBehaviour
     public GameObject reticle;
     private Vector2 movementInput;
     Vector3 newPos;
+    public GameObject player;
+    float score;
+    public AudioSource sound;
     private float rayCooldown = 2.5f;
 
     public float HighRumble;
     public float LowRumble;
     public float StopRumble;
 
-
+    private void Start()
+    {
+        rayCooldown = 2.5f;
+        sound.Play();
+        //sound.loop = true;
+    }
     private void Update()
     {
 
@@ -43,7 +51,13 @@ public class GodModeController : MonoBehaviour
             StartCoroutine(CanShoot());
 
         }
-        Debug.Log(Mathf.Round(rayCooldown));
+
+        //score = player.GetComponent<PlayerDetails>().score;
+        
+        //if (Mathf.Round(score) >= 100)
+        //{
+        //    sound.loop = false;
+        //}
         //if(Mathf.Round(rayCooldown) == 1)
         //{
         //    Gamepad.current.SetMotorSpeeds(0f, 0f);
@@ -72,7 +86,13 @@ public class GodModeController : MonoBehaviour
         source = GetComponent<Cinemachine.CinemachineImpulseSource>();
         source.GenerateImpulse(Camera.main.transform.forward);
         Gamepad.current.SetMotorSpeeds(LowRumble, HighRumble);
+        player.GetComponent<PlayerController>().speed = 0;
+        reticle.GetComponent<ReticleController>().speed = 0;
         yield return new WaitForSeconds(StopRumble);
+        player.GetComponent<PlayerController>().speed = 5;
+        reticle.GetComponent<ReticleController>().speed = 15;
         Gamepad.current.SetMotorSpeeds(0, 0);
+        yield return new WaitForSeconds(1.5f);
+        sound.Play();
     }
 }

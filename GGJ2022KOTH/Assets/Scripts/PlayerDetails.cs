@@ -10,6 +10,7 @@ public class PlayerDetails : MonoBehaviour
 
     void Start()
     {
+        score = 0;
         transform.position = startPos;
     }
     void Update()

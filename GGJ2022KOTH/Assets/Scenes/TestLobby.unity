@@ -1625,7 +1625,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 463e0103012b1b1498768151bc88e0e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  matchTime: 100
+  matchTime: 50
   matchScore: 50
   mapSelectionArea: {fileID: 1802997393}
   gameModeSelectionArea: {fileID: 1942877499}
@@ -1633,7 +1633,7 @@ MonoBehaviour:
   playerWinText: {fileID: 536307450}
   returnButton: {fileID: 1631589262}
   matchConfigA: 0
-  matchCofingB: 0
+  matchConfigB: 0
   timerText: {fileID: 177387513}
   timerUI: {fileID: 2122044626}
 --- !u!114 &1509831610 stripped

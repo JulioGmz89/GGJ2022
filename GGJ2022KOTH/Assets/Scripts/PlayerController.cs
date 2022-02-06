@@ -8,9 +8,9 @@ public class PlayerController : MonoBehaviour
 {
     public GameObject player;
     public Transform[] respawnPoints;
+    public AudioSource sound;
     public float speed = 5;
     private Vector2 movementInput;
-    public float Score = 0;
     public bool isDefeated = false;
     public Animator alivePlayerAnim;
     public Animator deadPlayerAnim;
@@ -26,13 +26,13 @@ public class PlayerController : MonoBehaviour
 
         if (isDefeated)
         {
-            PlayerDefeated();
+            StartCoroutine(PlayerDefeated());
         }
     }
 
     public void OnMove(InputAction.CallbackContext ctx) => movementInput = ctx.ReadValue<Vector2>();
 
-    void PlayerMovement()
+    public void PlayerMovement()
     {
         if (player.tag == "Alive" || player.tag == "Dead")
         {
@@ -44,17 +44,18 @@ public class PlayerController : MonoBehaviour
 
             if (movementInput.x != 0 || movementInput.y != 0)
             {
-
                 transform.rotation = Quaternion.RotateTowards(lookRotation, transform.rotation, 5 * Time.deltaTime);
-                if (player.tag == "Alive")
+
+                if (player.tag == "Alive" && !sound.isPlaying)
                 {
                     alivePlayerAnim.SetBool("isRunning", true);
+                    PAudio();
                 }
-                else if (player.tag == "Dead")
+                else if (player.tag == "Dead" && !sound.isPlaying)
                 {
                     deadPlayerAnim.SetBool("isRunning", true);
+                    PAudio();
                 }
-
             }
             else
             {
@@ -93,6 +94,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+
     private void OnTriggerExit(Collider other)
     {
         if (player.tag == "Alive" || player.tag == "Dead")
@@ -103,9 +105,18 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
-    void PlayerDefeated()
+    IEnumerator PlayerDefeated()
     {
-        gameObject.transform.position = respawnPoints[Random.Range(0, respawnPoints.Length)].position;
+        FindObjectOfType<AudioManager>().Play("Def");
+        speed = 0;
         isDefeated = false;
+        yield return new WaitForSeconds(1f);
+        gameObject.transform.position = respawnPoints[Random.Range(0, respawnPoints.Length)].position;
+        speed = 5;
+
+    }
+    public void PAudio()
+    {
+        sound.Play();
     }
 }

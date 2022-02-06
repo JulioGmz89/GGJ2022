@@ -12,6 +12,7 @@ public class PauseMenu : MonoBehaviour
     public GameObject pauseMenuUI;
     public GameObject resumeB;
     public GameObject mainMenuB;
+    public GameObject playerManager;
 
     void Update()
     {
@@ -46,6 +47,10 @@ public class PauseMenu : MonoBehaviour
     public void Return()
     {
         //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        for (int i=0; i < playerManager.GetComponent<PlayerInputManagerScript>().players.Count; i++)
+        {
+            Destroy(playerManager.GetComponent<PlayerInputManagerScript>().players[i]);
+        }
         SceneManager.LoadScene(0);
     }
 

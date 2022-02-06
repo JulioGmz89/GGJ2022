@@ -7,9 +7,15 @@ public class GodZoneScript : MonoBehaviour
     private GameObject currentGod;
     public GameObject playerInput;
     private PlayerInputManagerScript pim;
+    public GameObject map1;
+    public GameObject map2;
+    public GameObject map3;
     void Start()
     {
         pim = playerInput.GetComponent<PlayerInputManagerScript>();
+        map1.SetActive(true);
+        map2.SetActive(false);
+        map3.SetActive(false);
     }
     void OnTriggerEnter(Collider other)
     {
@@ -20,6 +26,7 @@ public class GodZoneScript : MonoBehaviour
                 other.transform.position = new Vector3(25, 0, 0);
                 other.tag = "God";
                 currentGod = other.gameObject;
+                ChangeMap();
                 pim.returnSpawn();
             }
             else
@@ -37,8 +44,32 @@ public class GodZoneScript : MonoBehaviour
                 other.transform.position = new Vector3(25, 0, 0);
                 other.tag = "God";
                 currentGod = other.gameObject;
+                ChangeMap();
                 pim.returnSpawn();
             }
+        }
+    }
+
+    void ChangeMap()
+    {
+        int randNum = Random.Range(1, 4);
+        if (randNum == 1)
+        {
+            map1.SetActive(true);
+            map2.SetActive(false);
+            map3.SetActive(false);
+        }
+        else if (randNum == 2)
+        {
+            map1.SetActive(false);
+            map2.SetActive(true);
+            map3.SetActive(false);
+        }
+        else if (randNum == 3)
+        {
+            map1.SetActive(false);
+            map2.SetActive(false);
+            map3.SetActive(true);
         }
     }
 }
