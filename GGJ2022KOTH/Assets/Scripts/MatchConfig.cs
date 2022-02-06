@@ -26,7 +26,6 @@ public class MatchConfig : MonoBehaviour
 
     private void Start()
     {
-        DontDestroyOnLoad(gameObject);
         mapSelection = mapSelectionArea.GetComponent<SelectionArea>();
         gameSelection = gameModeSelectionArea.GetComponent<SelectionArea>();
         pim = gameObject.GetComponent<PlayerInputManagerScript>();

@@ -5,14 +5,14 @@ using UnityEngine;
 public class GodZoneScript : MonoBehaviour
 {
     private GameObject currentGod;
-    public GameObject playerInput;
+    //public GameObject playerInput;
     private PlayerInputManagerScript pim;
     public GameObject map1;
     public GameObject map2;
     public GameObject map3;
     void Start()
     {
-        pim = playerInput.GetComponent<PlayerInputManagerScript>();
+        pim = GameObject.FindGameObjectWithTag("PlayerManager").GetComponent<PlayerInputManagerScript>();
         map1.SetActive(true);
         map2.SetActive(false);
         map3.SetActive(false);
@@ -26,8 +26,8 @@ public class GodZoneScript : MonoBehaviour
                 other.transform.position = new Vector3(25, 0, 0);
                 other.tag = "God";
                 currentGod = other.gameObject;
-                ChangeMap();
                 pim.returnSpawn();
+                ChangeMap();
             }
             else
             {
@@ -44,8 +44,8 @@ public class GodZoneScript : MonoBehaviour
                 other.transform.position = new Vector3(25, 0, 0);
                 other.tag = "God";
                 currentGod = other.gameObject;
-                ChangeMap();
                 pim.returnSpawn();
+                ChangeMap();
             }
         }
     }
@@ -72,4 +72,5 @@ public class GodZoneScript : MonoBehaviour
             map3.SetActive(true);
         }
     }
+
 }

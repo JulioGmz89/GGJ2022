@@ -84,6 +84,8 @@ public class PlayerInputManagerScript : MonoBehaviour
             playerScoreText[i].text = players[i].GetComponent<PlayerDetails>().score.ToString("0");
             playerScore[i] = players[i].GetComponent<PlayerDetails>().score;
         }
+
+        Debug.Log(players.Count);
     }
 
     public void returnSpawn()
@@ -92,6 +94,7 @@ public class PlayerInputManagerScript : MonoBehaviour
         {
             if (players[i].tag != "God")
             {
+
                 Vector3 startPos = spawnLocations[i].position;
                 players[i].transform.position = startPos;
             }

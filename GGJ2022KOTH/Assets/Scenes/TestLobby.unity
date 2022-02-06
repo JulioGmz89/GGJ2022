@@ -835,7 +835,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &614040312
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -870,12 +870,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 614040311}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d7c8c61a5f2a4064ea363172d88791a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   playerInput: {fileID: 1413749723}
+  map1: {fileID: 0}
+  map2: {fileID: 0}
+  map3: {fileID: 0}
 --- !u!114 &623887583 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8835901160004084289, guid: d0382d9080e72484791c903b3406760d, type: 3}
@@ -1512,6 +1515,7 @@ GameObject:
   - component: {fileID: 1413749724}
   - component: {fileID: 1413749726}
   - component: {fileID: 1413749727}
+  - component: {fileID: 1413749728}
   m_Layer: 0
   m_Name: PlayerManager
   m_TagString: PlayerManager
@@ -1636,6 +1640,18 @@ MonoBehaviour:
   matchConfigB: 0
   timerText: {fileID: 177387513}
   timerUI: {fileID: 2122044626}
+--- !u!114 &1413749728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413749723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 289b610167f311449b790c0603effcd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1509831610 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6203234715695988349, guid: a2a6e96372f5b0f4bb1f2b18b5c455ab, type: 3}
@@ -2022,6 +2038,7 @@ MonoBehaviour:
   pauseMenuUI: {fileID: 755561493}
   resumeB: {fileID: 250455577}
   mainMenuB: {fileID: 1631589262}
+  playerManager: {fileID: 0}
 --- !u!114 &1740746783
 MonoBehaviour:
   m_ObjectHideFlags: 0

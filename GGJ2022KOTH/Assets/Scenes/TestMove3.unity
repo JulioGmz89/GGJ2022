@@ -8129,6 +8129,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerInput: {fileID: 2072351193}
+  map1: {fileID: 0}
+  map2: {fileID: 0}
+  map3: {fileID: 0}
 --- !u!65 &790558909
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9137,6 +9140,7 @@ MonoBehaviour:
   pauseMenuUI: {fileID: 507991774}
   resumeB: {fileID: 1682461610}
   mainMenuB: {fileID: 1030524756}
+  playerManager: {fileID: 0}
 --- !u!114 &869878425
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20549,7 +20553,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2072351194
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20567,17 +20571,14 @@ MonoBehaviour:
   - {fileID: 3036926106222190956, guid: 3d00d56008c25794bbab3a3a85d05e92, type: 3}
   - {fileID: 8970185556369860204, guid: 165526fba6755af46bcef2fbfea15911, type: 3}
   - {fileID: 7217434664727620599, guid: ebb33ca69414189438cf8696e73ae250, type: 3}
-  scoreText:
-  - {fileID: 1931807988}
-  - {fileID: 1099863067}
-  - {fileID: 314710064}
-  - {fileID: 178659682}
-  playerScore:
-  - {fileID: 2100580249}
-  - {fileID: 1323043227}
-  - {fileID: 74044350}
-  - {fileID: 200394729}
+  scoreTextUI: []
+  playerScoreText: []
   players: []
+  playerScore:
+  - 0
+  - 0
+  - 0
+  - 0
   winText: {fileID: 1122259849}
   playerWinText: {fileID: 1122259848}
   returnButton: {fileID: 1030524756}
