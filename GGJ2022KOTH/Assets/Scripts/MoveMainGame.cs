@@ -7,12 +7,14 @@ public class MoveMainGame : MonoBehaviour
 {
     public GameObject playerInput;
     private PlayerInputManagerScript pim;
+    private MatchConfig matchConfig;
 
     public int numberOfPlayers;
 
     void Start()
     {
         pim = playerInput.GetComponent<PlayerInputManagerScript>();
+        matchConfig = playerInput.GetComponent<MatchConfig>();
     }
 
     void OnTriggerEnter(Collider other)

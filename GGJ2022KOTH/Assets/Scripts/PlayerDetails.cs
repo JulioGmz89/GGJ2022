@@ -16,11 +16,7 @@ public class PlayerDetails : MonoBehaviour
     {
         if (gameObject.tag == "God")
         {
-            if (score <= 100)
-            {
-                score += Time.deltaTime;
-
-            }
+            score += Time.deltaTime;
         }
     }
 }

@@ -15,6 +15,9 @@ public class SelectionArea : MonoBehaviour
 
     private Controls controls;
 
+    private MatchConfig matchConfig;
+    public GameObject playerInput;
+
     private void Awake()
     {
         controls = new Controls();
@@ -31,14 +34,15 @@ public class SelectionArea : MonoBehaviour
     }
     void Start()
     {
+        matchConfig = playerInput.GetComponent<MatchConfig>();
         controls.Gameplay.Select.performed += _ => PlayerSelect();
     }
-    private void PlayerSelect()
+    public void PlayerSelect()
     {
 
         if (playerOnMap)
         {
-            if (mapSelectionIndex == 1)
+            if (mapSelectionIndex == 2)
             {
                 mapSelectionIndex = 0;
             }
@@ -46,7 +50,6 @@ public class SelectionArea : MonoBehaviour
             {
                 mapSelectionIndex += 1;
             }
-            MapSelection();
         }
         else if (playerOnGameMode)
         {
@@ -58,8 +61,8 @@ public class SelectionArea : MonoBehaviour
             {
                 gameSelectionIndex += 1;
             }
-            GameModeSelection();
         }
+
     }
 
 
@@ -89,29 +92,6 @@ public class SelectionArea : MonoBehaviour
             {
                 playerOnGameMode = false;
             }
-        }
-    }
-
-    void MapSelection()
-    {
-        if (mapSelectionIndex == 0)
-        {
-            GetComponent<Renderer>().material = Material1;
-        }
-        if (mapSelectionIndex == 1)
-        {
-            GetComponent<Renderer>().material = Material2;
-        }
-    }
-    void GameModeSelection()
-    {
-        if (gameSelectionIndex == 0)
-        {
-            GetComponent<Renderer>().material = Material1;
-        }
-        if (gameSelectionIndex == 1)
-        {
-            GetComponent<Renderer>().material = Material2;
         }
     }
 }

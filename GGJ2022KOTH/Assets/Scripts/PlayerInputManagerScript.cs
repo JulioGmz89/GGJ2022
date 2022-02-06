@@ -8,15 +8,21 @@ using UnityEngine.SceneManagement;
 public class PlayerInputManagerScript : MonoBehaviour
 {
     public Transform[] spawnLocations;
-    public GameObject[] scoreText;
-    public Text[] playerScore;
+    public GameObject[] scoreTextUI;
+    public Text[] playerScoreText;
 
     public List<GameObject> players = new List<GameObject>();
+    public List<float> playerScore = new List<float>();
 
     public Text winText;
     public GameObject playerWinText;
     public GameObject returnButton;
+    private MatchConfig matchConfig;
 
+    void Start()
+    {
+        matchConfig = gameObject.GetComponent<MatchConfig>();
+    }
     void Awake()
     {
 
@@ -31,9 +37,12 @@ public class PlayerInputManagerScript : MonoBehaviour
     {
         if (scene.name == "TestMove")
         {
+            matchConfig.MatchMaking();
+
             for (int i = 0; i < players.Count; i++)
             {
                 DontDestroyOnLoad(players[i]);
+                DontDestroyOnLoad(scoreTextUI[i]);
                 players[i].transform.position = spawnLocations[i].position;
             }
         }
@@ -50,19 +59,19 @@ public class PlayerInputManagerScript : MonoBehaviour
 
         if (playerInput.playerIndex == 0)
         {
-            scoreText[playerInput.playerIndex].SetActive(true);
+            scoreTextUI[playerInput.playerIndex].SetActive(true);
         }
         else if (playerInput.playerIndex == 1)
         {
-            scoreText[playerInput.playerIndex].SetActive(true);
+            scoreTextUI[playerInput.playerIndex].SetActive(true);
         }
         else if (playerInput.playerIndex == 2)
         {
-            scoreText[playerInput.playerIndex].SetActive(true);
+            scoreTextUI[playerInput.playerIndex].SetActive(true);
         }
         else if (playerInput.playerIndex == 3)
         {
-            scoreText[playerInput.playerIndex].SetActive(true);
+            scoreTextUI[playerInput.playerIndex].SetActive(true);
         }
 
     }
@@ -70,16 +79,10 @@ public class PlayerInputManagerScript : MonoBehaviour
 
     void Update()
     {
-
         for (int i = 0; i < players.Count; i++)
         {
-            playerScore[i].text = players[i].GetComponent<PlayerDetails>().score.ToString("0");
-
-            if (Mathf.Round(players[i].GetComponent<PlayerDetails>().score) == 100)
-            {
-                playerWin(i + 1);
-            }
-
+            playerScoreText[i].text = players[i].GetComponent<PlayerDetails>().score.ToString("0");
+            playerScore[i] = players[i].GetComponent<PlayerDetails>().score;
         }
     }
 
@@ -93,14 +96,6 @@ public class PlayerInputManagerScript : MonoBehaviour
                 players[i].transform.position = startPos;
             }
         }
-    }
-
-    public void playerWin(int playerNumber)
-    {
-        playerWinText.SetActive(true);
-        winText.text = "Player " + playerNumber + " wins";
-        Time.timeScale = 0f;
-        returnButton.SetActive(true);
     }
     public void Return()
     {

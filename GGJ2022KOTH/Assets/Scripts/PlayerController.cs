@@ -86,6 +86,10 @@ public class PlayerController : MonoBehaviour
             {
                 speed = 10;
             }
+            if (other.tag == "SlowTile")
+            {
+                speed = 2.5f;
+            }
         }
     }
 
@@ -93,7 +97,7 @@ public class PlayerController : MonoBehaviour
     {
         if (player.tag == "Alive" || player.tag == "Dead")
         {
-            if (other.tag == "FastTile")
+            if (other.tag == "FastTile" || other.tag == "SlowTile")
             {
                 speed = 5;
             }
@@ -104,7 +108,4 @@ public class PlayerController : MonoBehaviour
         gameObject.transform.position = respawnPoints[Random.Range(0, respawnPoints.Length)].position;
         isDefeated = false;
     }
-
-
-
 }
