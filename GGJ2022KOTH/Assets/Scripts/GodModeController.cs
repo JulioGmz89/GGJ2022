@@ -24,6 +24,10 @@ public class GodModeController : MonoBehaviour
     public float HighRumble;
     public float LowRumble;
     public float StopRumble;
+    public GameObject throneDecoy;
+    public GameObject godDecoy;
+    public Animator throneAnimator;
+    public GameObject godMainMesh;
 
     private void Start()
     {
@@ -80,9 +84,20 @@ public class GodModeController : MonoBehaviour
 
     IEnumerator CanShoot()
     {
+        //Tiempo entre rayos
+        yield return new WaitForSeconds(1f);
+        //Empieza la animacion de disparo
+        godDecoy.SetActive(true);
+        throneDecoy.SetActive(true);
+        godMainMesh.SetActive(false);
+        throneAnimator.SetBool("Fire", true);
+        //Timer en lo que castea el disparo
+        yield return new WaitForSeconds(2f);
+        //Disparo
         GameObject ray = Instantiate(rayPrefab, firePoint.position, firePoint.rotation);
         ray.SetActive(true);
         rayCooldown = 4.5f;
+        //Bug de screen Shake muy largo
         source = GetComponent<Cinemachine.CinemachineImpulseSource>();
         source.GenerateImpulse(Camera.main.transform.forward);
         Gamepad.current.SetMotorSpeeds(LowRumble, HighRumble);
@@ -91,6 +106,13 @@ public class GodModeController : MonoBehaviour
         yield return new WaitForSeconds(StopRumble);
         player.GetComponent<PlayerController>().speed = 5;
         reticle.GetComponent<ReticleController>().speed = 15;
+        //Tiempo para que termine la animacion
+        yield return new WaitForSeconds(1.25f);
+        //Fin de la animacion
+        godDecoy.SetActive(false);
+        throneAnimator.SetBool("Fire", false);
+        throneDecoy.SetActive(false);
+        godMainMesh.SetActive(true);
         Gamepad.current.SetMotorSpeeds(0, 0);
         yield return new WaitForSeconds(1.5f);
         sound.Play();
