@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 
 public class SelectionArea : MonoBehaviour
 {
-    public bool playerOnMap;
+    //public bool playerOnMap;
     public bool playerOnGameMode;
     public GameObject gameModeConfig;
     public int mapSelectionIndex;
@@ -47,19 +47,7 @@ public class SelectionArea : MonoBehaviour
     }
     public void PlayerSelect()
     {
-
-        if (playerOnMap)
-        {
-            if (mapSelectionIndex == 2)
-            {
-                mapSelectionIndex = 0;
-            }
-            else
-            {
-                mapSelectionIndex += 1;
-            }
-        }
-        else if (playerOnGameMode)
+        if (playerOnGameMode)
         {
             if (gameSelectionIndex == 1)
             {
@@ -104,11 +92,7 @@ public class SelectionArea : MonoBehaviour
     {
         if (other.tag == "Dead" || other.tag == "Alive")
         {
-            if (gameObject.tag == "MapSelection")
-            {
-                playerOnMap = true;
-            }
-            else if (gameObject.tag == "GameModeSelection")
+            if (gameObject.tag == "GameModeSelection")
             {
                 playerOnGameMode = true;
             }
@@ -126,11 +110,7 @@ public class SelectionArea : MonoBehaviour
     {
         if (other.tag == "Dead" || other.tag == "Alive")
         {
-            if (gameObject.tag == "MapSelection")
-            {
-                playerOnMap = false;
-            }
-            else if (gameObject.tag == "GameModeSelection")
+            if (gameObject.tag == "GameModeSelection")
             {
                 playerOnGameMode = false;
             }
