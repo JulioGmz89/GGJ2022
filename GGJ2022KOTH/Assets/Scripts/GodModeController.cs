@@ -34,10 +34,10 @@ public class GodModeController : MonoBehaviour
     private void Update()
     {
 
-        Vector3 relativePos = reticle.transform.position - transform.position;
-        newPos = new Vector3(relativePos.x, 0, relativePos.z);
-        Quaternion rotation = Quaternion.LookRotation(newPos, Vector3.up);
-        transform.rotation = rotation;
+        // Vector3 relativePos = reticle.transform.position - transform.position;
+        // newPos = new Vector3(relativePos.x, 0, relativePos.z);
+        // Quaternion rotation = Quaternion.LookRotation(newPos, Vector3.up);
+        // transform.rotation = rotation;
 
         //AUTO SHOOT
 
@@ -53,7 +53,7 @@ public class GodModeController : MonoBehaviour
         }
 
         //score = player.GetComponent<PlayerDetails>().score;
-        
+
         //if (Mathf.Round(score) >= 100)
         //{
         //    sound.loop = false;

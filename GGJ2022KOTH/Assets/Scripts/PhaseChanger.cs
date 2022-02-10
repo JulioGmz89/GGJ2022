@@ -5,8 +5,7 @@ using UnityEngine;
 public class PhaseChanger : MonoBehaviour
 {
     public GameObject player;
-    public GameObject alive;
-    public GameObject dead;
+    public GameObject cat;
     public GameObject godMode;
 
     int RandN;
@@ -30,22 +29,14 @@ public class PhaseChanger : MonoBehaviour
 
     void Update()
     {
-        if (player.tag == "Alive")
+        if (player.tag == "Alive" || player.tag == "Dead")
         {
-            alive.SetActive(true);
-            dead.SetActive(false);
-            godMode.SetActive(false);
-        }
-        else if (player.tag == "Dead")
-        {
-            alive.SetActive(false);
-            dead.SetActive(true);
+            cat.SetActive(true);
             godMode.SetActive(false);
         }
         else if (player.tag == "God")
         {
-            alive.SetActive(false);
-            dead.SetActive(false);
+            cat.SetActive(false);
             godMode.SetActive(true);
         }
     }

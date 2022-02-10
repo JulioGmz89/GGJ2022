@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class MoveMainGame : MonoBehaviour
 {
-    public GameObject playerInput;
     private PlayerInputManagerScript pim;
     private MatchConfig matchConfig;
 
@@ -13,8 +12,8 @@ public class MoveMainGame : MonoBehaviour
 
     void Start()
     {
-        pim = playerInput.GetComponent<PlayerInputManagerScript>();
-        matchConfig = playerInput.GetComponent<MatchConfig>();
+        pim = GameObject.FindGameObjectWithTag("PlayerManager").GetComponent<PlayerInputManagerScript>();
+        matchConfig = GameObject.FindGameObjectWithTag("PlayerManager").GetComponent<MatchConfig>();
     }
 
     void OnTriggerEnter(Collider other)
@@ -37,6 +36,7 @@ public class MoveMainGame : MonoBehaviour
         Debug.Log(pim.players.Count);
         if (numberOfPlayers != 0 && numberOfPlayers == pim.players.Count)
         {
+            matchConfig.MatchMaking();
             SceneManager.LoadScene(1);
         }
     }

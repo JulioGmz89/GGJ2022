@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerDetails : MonoBehaviour
 {
@@ -18,6 +19,12 @@ public class PlayerDetails : MonoBehaviour
         if (gameObject.tag == "God")
         {
             score += Time.deltaTime;
+        }
+        if (SceneManager.GetActiveScene().name == "TestLobby")
+        {
+
+            score = 0;
+
         }
     }
 }

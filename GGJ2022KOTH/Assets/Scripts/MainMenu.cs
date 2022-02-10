@@ -21,7 +21,6 @@ public class MainMenu : MonoBehaviour
 
     public void QuitGame()
     {
-        Debug.Log("Bye Prro");
         Application.Quit();
     }
 

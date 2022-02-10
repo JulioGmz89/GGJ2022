@@ -12,13 +12,18 @@ public class PlayerController : MonoBehaviour
     public float speed = 5;
     private Vector2 movementInput;
     public bool isDefeated = false;
-    public Animator alivePlayerAnim;
-    public Animator deadPlayerAnim;
+    public Animator catAnim;
+    public Animator catMeshAnim;
+    public GameObject smokePrefab;
+    private float timeRemaining = .5f;
+    //public Animator deadPlayerAnim;
     public bool playerSelectionInput = false;
+
     void Start()
     {
-        Time.timeScale = 1;
+        //Time.timeScale = 1;
         DontDestroyOnLoad(gameObject);
+        CatsTextures();
     }
     private void Update()
     {
@@ -28,6 +33,13 @@ public class PlayerController : MonoBehaviour
         {
             StartCoroutine(PlayerDefeated());
         }
+
+        if (Mathf.Round(timeRemaining) > 0)
+        {
+            timeRemaining -= Time.deltaTime;
+
+        }
+
     }
 
     public void OnMove(InputAction.CallbackContext ctx) => movementInput = ctx.ReadValue<Vector2>();
@@ -45,29 +57,38 @@ public class PlayerController : MonoBehaviour
             if (movementInput.x != 0 || movementInput.y != 0)
             {
                 transform.rotation = Quaternion.RotateTowards(lookRotation, transform.rotation, 5 * Time.deltaTime);
+                if (Mathf.Round(timeRemaining) == 0)
+                {
+                    StartCoroutine("DisplaySmoke");
 
-                if (player.tag == "Alive" && !sound.isPlaying)
-                {
-                    alivePlayerAnim.SetBool("isRunning", true);
-                    PAudio();
                 }
-                else if (player.tag == "Dead" && !sound.isPlaying)
+
+                if (player.tag == "Alive" || player.tag == "Dead")
                 {
-                    deadPlayerAnim.SetBool("isRunning", true);
-                    PAudio();
+                    catAnim.SetBool("isRunning", true);
+                    if (!sound.isPlaying)
+                    {
+                        PAudio();
+                    }
+
                 }
             }
             else
             {
-                alivePlayerAnim.SetBool("isRunning", false);
-                deadPlayerAnim.SetBool("isRunning", false);
+                catAnim.SetBool("isRunning", false);
             }
         }
 
         else if (player.tag == "God")
         {
+            transform.rotation = Quaternion.Euler(0, -90, 0);
             transform.Translate(new Vector3(0, 0, movementInput.y) * speed * Time.deltaTime, Space.World);
         }
+    }
+
+    private void OnGameStateChanged(GameState newGameState)
+    {
+        enabled = newGameState == GameState.Gameplay;
     }
 
     void OnTriggerEnter(Collider other)
@@ -118,5 +139,26 @@ public class PlayerController : MonoBehaviour
     public void PAudio()
     {
         sound.Play();
+    }
+
+    public IEnumerator CatsTextures()
+    {
+        yield return new WaitForSeconds(0.01f);
+        if (player.tag == "Alive")
+        {
+            catMeshAnim.Play("AliveCat");
+        }
+        else if (player.tag == "Dead")
+        {
+            catMeshAnim.Play("DeadCat");
+        }
+    }
+
+    public IEnumerator DisplaySmoke()
+    {
+        var temp = Instantiate(smokePrefab, transform.position, transform.rotation);
+        timeRemaining = 1f;
+        yield return new WaitForSeconds(1f);
+        Destroy(temp);
     }
 }

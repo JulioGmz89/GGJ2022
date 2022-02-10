@@ -16,6 +16,8 @@ TagManager:
   - GameModeSelection
   - FastTile
   - SlowTile
+  - TimeConfig
+  - ScoreConfig
   layers:
   - Default
   - TransparentFX

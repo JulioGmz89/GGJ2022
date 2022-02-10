@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
@@ -12,8 +13,34 @@ public class PauseMenu : MonoBehaviour
     public GameObject pauseMenuUI;
     public GameObject resumeB;
     public GameObject mainMenuB;
-    public GameObject playerManager;
+    public PlayerInputManagerScript playerManager;
+    private MatchConfig matchConfig;
+    public GameObject settingB;
+    public GameObject settingUI;
+    public GameObject backB;
+    public GameObject Slide;
 
+    public Text timerText;
+    public GameObject timerUI;
+    public int num;
+
+    private void Start()
+    {
+        playerManager = GameObject.FindGameObjectWithTag("PlayerManager").GetComponent<PlayerInputManagerScript>();
+        matchConfig = GameObject.FindGameObjectWithTag("PlayerManager").GetComponent<MatchConfig>();
+    }
+    private void Awake()
+    {
+        num = FindObjectsOfType<DontDestroy>().Length;
+        if (num != 1)
+        {
+            Destroy(this.gameObject);
+        }
+        else
+        {
+            DontDestroyOnLoad(gameObject);
+        }
+    }
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape) || Input.GetButtonDown("Fire3"))
@@ -33,7 +60,11 @@ public class PauseMenu : MonoBehaviour
         resumeB.SetActive(false);
         pauseMenuUI.SetActive(false);
         mainMenuB.SetActive(false);
-        Time.timeScale = 1f;
+        Time.timeScale = 1;
+        settingB.SetActive(false);
+        settingUI.SetActive(false);
+        backB.SetActive(false);
+        Slide.SetActive(false);
         GameIsPaused = false;
     }
     void Pause()
@@ -41,46 +72,30 @@ public class PauseMenu : MonoBehaviour
         pauseMenuUI.SetActive(true);
         resumeB.SetActive(true);
         mainMenuB.SetActive(true);
-        Time.timeScale = 0f;
+        Time.timeScale = 0;
         GameIsPaused = true;
+        settingB.SetActive(true);
     }
-    public void Return()
+    void Return()
     {
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
-        for (int i=0; i < playerManager.GetComponent<PlayerInputManagerScript>().players.Count; i++)
-        {
-            Destroy(playerManager.GetComponent<PlayerInputManagerScript>().players[i]);
-        }
+        Resume();
+        timerUI.SetActive(false);
+        timerText.text = "0";
         SceneManager.LoadScene(0);
+        matchConfig.matchConfigA = false;
+        matchConfig.matchConfigB = false;
     }
-
-
-    /*public PlayerInput playerInput;
-    public GameObject pauseMenuPanel;
-
-
-    public void TogglePause(InputAction.CallbackContext context)
+    public void Settings()
     {
-        if (!pauseMenuPanel.activeInHierarchy)
-        {
-            Time.timeScale = 0;
-            playerInput.SwitchCurrentActionMap("UI");
-            pauseMenuPanel.SetActive(true);
-            InputSystem.settings.updateMode = InputSettings.UpdateMode.ProcessEventsInDynamicUpdate;
-            Debug.Log("Game Paused");
-            //isPaused = true;
-        }
-
-        else
-        {
-            Time.timeScale = 1;
-            playerInput.SwitchCurrentActionMap("Gameplay");
-            pauseMenuPanel.SetActive(false);
-            InputSystem.settings.updateMode = InputSettings.UpdateMode.ProcessEventsInFixedUpdate;
-            Debug.Log("Game Unpaused");
-
-        }
-
-    }*/
+        resumeB.SetActive(false);
+        pauseMenuUI.SetActive(false);
+        mainMenuB.SetActive(false);
+        settingB.SetActive(false);
+        settingUI.SetActive(true);
+        backB.SetActive(true);
+        Slide.SetActive(true);
+        EventSystem.current.SetSelectedGameObject(null);
+        EventSystem.current.SetSelectedGameObject(backB);
+    }
 
 }

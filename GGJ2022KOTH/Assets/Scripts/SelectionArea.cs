@@ -7,8 +7,11 @@ public class SelectionArea : MonoBehaviour
 {
     public bool playerOnMap;
     public bool playerOnGameMode;
+    public GameObject gameModeConfig;
     public int mapSelectionIndex;
     public int gameSelectionIndex;
+    public int timeIndex;
+    public int scoreIndex;
     public Material Material1;
     public Material Material2;
     private static GameObject self;
@@ -16,7 +19,12 @@ public class SelectionArea : MonoBehaviour
     private Controls controls;
 
     private MatchConfig matchConfig;
-    public GameObject playerInput;
+
+    public float[] timeOptions;
+    public int[] scoreOptions;
+
+    public bool timeConfig;
+    public bool scoreConfig;
 
     private void Awake()
     {
@@ -34,7 +42,7 @@ public class SelectionArea : MonoBehaviour
     }
     void Start()
     {
-        matchConfig = playerInput.GetComponent<MatchConfig>();
+        matchConfig = GameObject.FindGameObjectWithTag("PlayerManager").GetComponent<MatchConfig>();
         controls.Gameplay.Select.performed += _ => PlayerSelect();
     }
     public void PlayerSelect()
@@ -55,17 +63,43 @@ public class SelectionArea : MonoBehaviour
         {
             if (gameSelectionIndex == 1)
             {
+                gameModeConfig.transform.GetChild(0).gameObject.SetActive(true);
+                gameModeConfig.transform.GetChild(1).gameObject.SetActive(false);
                 gameSelectionIndex = 0;
             }
             else
             {
+                gameModeConfig.transform.GetChild(1).gameObject.SetActive(true);
+                gameModeConfig.transform.GetChild(0).gameObject.SetActive(false);
                 gameSelectionIndex += 1;
             }
         }
+        else if (timeConfig)
+        {
+            if (timeIndex == timeOptions.Length)
+            {
+                timeIndex = 0;
+            }
+            else
+            {
+                timeIndex += 1;
+            }
+            matchConfig.TimeConfig();
+        }
+        else if (scoreConfig)
+        {
+            if (scoreIndex == scoreOptions.Length)
+            {
+                scoreIndex = 0;
+            }
+            else
+            {
+                scoreIndex += 1;
+            }
+            matchConfig.ScoreConfig();
+        }
 
     }
-
-
     void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Dead" || other.tag == "Alive")
@@ -77,6 +111,14 @@ public class SelectionArea : MonoBehaviour
             else if (gameObject.tag == "GameModeSelection")
             {
                 playerOnGameMode = true;
+            }
+            else if (gameObject.tag == "TimeConfig")
+            {
+                timeConfig = true;
+            }
+            else if (gameObject.tag == "ScoreConfig")
+            {
+                scoreConfig = true;
             }
         }
     }
@@ -91,6 +133,14 @@ public class SelectionArea : MonoBehaviour
             else if (gameObject.tag == "GameModeSelection")
             {
                 playerOnGameMode = false;
+            }
+            else if (gameObject.tag == "TimeConfig")
+            {
+                timeConfig = false;
+            }
+            else if (gameObject.tag == "ScoreConfig")
+            {
+                scoreConfig = false;
             }
         }
     }

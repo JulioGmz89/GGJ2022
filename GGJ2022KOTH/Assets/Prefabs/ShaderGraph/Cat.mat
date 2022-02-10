@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Cat
+  m_Shader: {fileID: -6465566751694194690, guid: a991776b3d761f94694ccb751c50d002, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2DArray_c2094cf0ec6b4c5c8243393998da74e6:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_0409847b695946a58ee6dcdc0c37156f:
+        m_Texture: {fileID: 2800000, guid: c0ab6f0ba3dd47b43aaebfd40913987f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_64f98d2480d34f539ba4c3c7ad2eca39:
+        m_Texture: {fileID: 2800000, guid: d73cae0c91a176244aaa0cbc0f95ff16, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_1ee38f593b574a95b3917742a18fdff6: 0
+    - Vector1_29edabe33a2d47e9bad736a9a1701732: 0.44
+    - Vector1_5679cdd110d14c50900bd60f60745bde: 0.05
+    - Vector1_89ed6bf1807f42afb576cc24599b9c90: 20.97
+    m_Colors:
+    - Color_34e0d4e9377544ddbf080ca7a956a812: {r: 0.85713637, g: 13.97791, b: 2.864685, a: 0}
+    - Vector2_9a64565d66b74cb687b16ce64d22e776: {r: 0, g: 1.34, b: 0, a: 0}
+  m_BuildTextureStacks: []

@@ -18,6 +18,7 @@ public class PlayerInputManagerScript : MonoBehaviour
     public GameObject playerWinText;
     public GameObject returnButton;
     private MatchConfig matchConfig;
+    private Outline outline;
 
     void Start()
     {
@@ -37,13 +38,29 @@ public class PlayerInputManagerScript : MonoBehaviour
     {
         if (scene.name == "TestMove")
         {
-            matchConfig.MatchMaking();
-
             for (int i = 0; i < players.Count; i++)
             {
                 DontDestroyOnLoad(players[i]);
                 DontDestroyOnLoad(scoreTextUI[i]);
                 players[i].transform.position = spawnLocations[i].position;
+            }
+        }
+        else if (scene.name == "TestLobby")
+        {
+            for (int i = 0; i < players.Count; i++)
+            {
+                if (players[i].tag == "God")
+                {
+                    int randNum = Random.Range(1, 50);
+                    if (randNum < 25)
+                    {
+                        players[i].tag = "Alive";
+                    }
+                    else if (randNum > 25)
+                    {
+                        players[i].tag = "Dead";
+                    }
+                }
             }
         }
     }
@@ -59,18 +76,22 @@ public class PlayerInputManagerScript : MonoBehaviour
 
         if (playerInput.playerIndex == 0)
         {
+            playerInput.gameObject.transform.GetChild(1).transform.GetChild(0).GetComponent<Outline>().OutlineColor = new Color(255f / 255f, 43f / 255f, 43f / 255f);
             scoreTextUI[playerInput.playerIndex].SetActive(true);
         }
         else if (playerInput.playerIndex == 1)
         {
+            playerInput.gameObject.transform.GetChild(1).transform.GetChild(0).GetComponent<Outline>().OutlineColor = new Color(24f / 255f, 196f / 255f, 250f / 255f);
             scoreTextUI[playerInput.playerIndex].SetActive(true);
         }
         else if (playerInput.playerIndex == 2)
         {
+            playerInput.gameObject.transform.GetChild(1).transform.GetChild(0).GetComponent<Outline>().OutlineColor = new Color(224f / 255f, 130f / 255f, 60f / 255f);
             scoreTextUI[playerInput.playerIndex].SetActive(true);
         }
         else if (playerInput.playerIndex == 3)
         {
+            playerInput.gameObject.transform.GetChild(1).transform.GetChild(0).GetComponent<Outline>().OutlineColor = new Color(249f / 255f, 42f / 255f, 6f / 255f);
             scoreTextUI[playerInput.playerIndex].SetActive(true);
         }
 
@@ -94,9 +115,10 @@ public class PlayerInputManagerScript : MonoBehaviour
         {
             if (players[i].tag != "God")
             {
-
                 Vector3 startPos = spawnLocations[i].position;
                 players[i].transform.position = startPos;
+                players[i].GetComponent<PlayerController>().speed = 5;
+                players[i].GetComponent<PlayerController>().StartCoroutine("CatsTextures");
             }
         }
     }

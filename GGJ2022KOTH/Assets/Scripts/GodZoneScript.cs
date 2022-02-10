@@ -5,7 +5,6 @@ using UnityEngine;
 public class GodZoneScript : MonoBehaviour
 {
     private GameObject currentGod;
-    //public GameObject playerInput;
     private PlayerInputManagerScript pim;
     public GameObject map1;
     public GameObject map2;
@@ -35,10 +34,12 @@ public class GodZoneScript : MonoBehaviour
                 if (RandN < 25)
                 {
                     currentGod.tag = "Alive";
+
                 }
                 else if (RandN > 25)
                 {
                     currentGod.tag = "Dead";
+
                 }
 
                 other.transform.position = new Vector3(25, 0, 0);

@@ -20,17 +20,19 @@ public class RayController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.tag == "Alive")
+        if (other.tag == "Alive")
         {
             Debug.Log("Alive player hit");
             other.tag = "Dead";
+            other.transform.GetChild(1).transform.GetChild(0).GetComponent<Animator>().Play("AliveToDead");
             PAudio();
             Physics.IgnoreLayerCollision(6, 7);
         }
-        else if(other.tag == "Dead")
+        else if (other.tag == "Dead")
         {
             Debug.Log("Dead player hit");
             other.tag = "Alive";
+            other.transform.GetChild(1).transform.GetChild(0).GetComponent<Animator>().Play("DeadToAlive");
             PAudio();
             Physics.IgnoreLayerCollision(6, 7);
         }
