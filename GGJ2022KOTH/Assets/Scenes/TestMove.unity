@@ -31622,8 +31622,8 @@ GameObject:
   - component: {fileID: 1185218175}
   - component: {fileID: 1185218174}
   m_Layer: 0
-  m_Name: SlowTile (1)
-  m_TagString: SlowTile
+  m_Name: FastTile (2)
+  m_TagString: FastTile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33902,8 +33902,8 @@ GameObject:
   - component: {fileID: 1253234252}
   - component: {fileID: 1253234251}
   m_Layer: 0
-  m_Name: SlowTile
-  m_TagString: SlowTile
+  m_Name: FastTile (1)
+  m_TagString: FastTile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

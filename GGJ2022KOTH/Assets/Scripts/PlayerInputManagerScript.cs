@@ -9,6 +9,7 @@ public class PlayerInputManagerScript : MonoBehaviour
 {
     public Transform[] spawnLocations;
     public GameObject[] scoreTextUI;
+    public GameObject[] pressButtonUI;
     public Text[] playerScoreText;
 
     public List<GameObject> players = new List<GameObject>();
@@ -44,6 +45,10 @@ public class PlayerInputManagerScript : MonoBehaviour
                 DontDestroyOnLoad(scoreTextUI[i]);
                 players[i].transform.position = spawnLocations[i].position;
             }
+            for (int i = 0; i < pressButtonUI.Length; i++)
+            {
+                pressButtonUI[i].SetActive(false);
+            }
         }
         else if (scene.name == "TestLobby")
         {
@@ -78,21 +83,25 @@ public class PlayerInputManagerScript : MonoBehaviour
         {
             playerInput.gameObject.transform.GetChild(1).transform.GetChild(0).GetComponent<Outline>().OutlineColor = new Color(255f / 255f, 43f / 255f, 43f / 255f);
             scoreTextUI[playerInput.playerIndex].SetActive(true);
+            pressButtonUI[playerInput.playerIndex].SetActive(false);
         }
         else if (playerInput.playerIndex == 1)
         {
             playerInput.gameObject.transform.GetChild(1).transform.GetChild(0).GetComponent<Outline>().OutlineColor = new Color(24f / 255f, 196f / 255f, 250f / 255f);
             scoreTextUI[playerInput.playerIndex].SetActive(true);
+            pressButtonUI[playerInput.playerIndex].SetActive(false);
         }
         else if (playerInput.playerIndex == 2)
         {
             playerInput.gameObject.transform.GetChild(1).transform.GetChild(0).GetComponent<Outline>().OutlineColor = new Color(224f / 255f, 130f / 255f, 60f / 255f);
             scoreTextUI[playerInput.playerIndex].SetActive(true);
+            pressButtonUI[playerInput.playerIndex].SetActive(false);
         }
         else if (playerInput.playerIndex == 3)
         {
             playerInput.gameObject.transform.GetChild(1).transform.GetChild(0).GetComponent<Outline>().OutlineColor = new Color(249f / 255f, 42f / 255f, 6f / 255f);
             scoreTextUI[playerInput.playerIndex].SetActive(true);
+            pressButtonUI[playerInput.playerIndex].SetActive(false);
         }
 
     }

@@ -72,7 +72,7 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 0;
         GameIsPaused = true;
     }
-    void Return()
+    public void Return()
     {
         Resume();
         timerUI.SetActive(false);

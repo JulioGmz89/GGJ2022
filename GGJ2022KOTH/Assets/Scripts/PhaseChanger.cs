@@ -24,7 +24,7 @@ public class PhaseChanger : MonoBehaviour
     }
     void Start()
     {
-        Physics.IgnoreLayerCollision(6, 6, true);
+        //Physics.IgnoreLayerCollision(6, 6, true);
     }
 
     void Update()
