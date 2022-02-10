@@ -107,10 +107,10 @@ public class GodModeController : MonoBehaviour
         reticle.GetComponent<ReticleController>().speed = 0;
         yield return new WaitForSeconds(StopRumble);
         Gamepad.current.SetMotorSpeeds(0, 0);
-        player.GetComponent<PlayerController>().speed = 5;
-        reticle.GetComponent<ReticleController>().speed = 15;
         //Tiempo para que termine la animacion
         yield return new WaitForSeconds(1.25f);
+        player.GetComponent<PlayerController>().speed = 5;
+        reticle.GetComponent<ReticleController>().speed = 15;
         //Fin de la animacion
         godDecoy.SetActive(false);
         throneAnimator.SetBool("Fire", false);

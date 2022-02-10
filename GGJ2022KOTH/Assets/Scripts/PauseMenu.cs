@@ -15,11 +15,8 @@ public class PauseMenu : MonoBehaviour
     public GameObject mainMenuB;
     public PlayerInputManagerScript playerManager;
     private MatchConfig matchConfig;
-    public GameObject settingB;
-    public GameObject settingUI;
-    public GameObject backB;
     public GameObject Slide;
-
+    public GameObject pyramid;
     public Text timerText;
     public GameObject timerUI;
     public int num;
@@ -61,10 +58,8 @@ public class PauseMenu : MonoBehaviour
         pauseMenuUI.SetActive(false);
         mainMenuB.SetActive(false);
         Time.timeScale = 1;
-        settingB.SetActive(false);
-        settingUI.SetActive(false);
-        backB.SetActive(false);
         Slide.SetActive(false);
+        pyramid.SetActive(false);
         GameIsPaused = false;
     }
     void Pause()
@@ -72,9 +67,10 @@ public class PauseMenu : MonoBehaviour
         pauseMenuUI.SetActive(true);
         resumeB.SetActive(true);
         mainMenuB.SetActive(true);
+        pyramid.SetActive(true);
+        Slide.SetActive(true);
         Time.timeScale = 0;
         GameIsPaused = true;
-        settingB.SetActive(true);
     }
     void Return()
     {
@@ -85,17 +81,4 @@ public class PauseMenu : MonoBehaviour
         matchConfig.matchConfigA = false;
         matchConfig.matchConfigB = false;
     }
-    public void Settings()
-    {
-        resumeB.SetActive(false);
-        pauseMenuUI.SetActive(false);
-        mainMenuB.SetActive(false);
-        settingB.SetActive(false);
-        settingUI.SetActive(true);
-        backB.SetActive(true);
-        Slide.SetActive(true);
-        EventSystem.current.SetSelectedGameObject(null);
-        EventSystem.current.SetSelectedGameObject(backB);
-    }
-
 }
