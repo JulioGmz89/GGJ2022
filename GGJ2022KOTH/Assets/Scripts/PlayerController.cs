@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviour
     {
         //Time.timeScale = 1;
         DontDestroyOnLoad(gameObject);
-        CatsTextures();
+        StartCoroutine("CatsTextures");
     }
     private void Update()
     {

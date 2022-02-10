@@ -39,7 +39,6 @@ public class GodZoneScript : MonoBehaviour
                 else if (RandN > 25)
                 {
                     currentGod.tag = "Dead";
-
                 }
 
                 other.transform.position = new Vector3(25, 0, 0);
