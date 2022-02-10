@@ -49,7 +49,6 @@ public class SettingZone : MonoBehaviour
     }
     void Update()
     {
-        Debug.Log(pim.players.Count);
         if (numberOfPlayers != 0 && numberOfPlayers == pim.players.Count)
         {
             GameIsPaused = true;

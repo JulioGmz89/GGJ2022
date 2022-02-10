@@ -15,7 +15,8 @@ public class PlayerController : MonoBehaviour
     public Animator catAnim;
     public Animator catMeshAnim;
     public GameObject smokePrefab;
-    private float timeRemaining = .5f;
+    private float timeRemaining = .2f;
+    public float deathTileTimer = .5f;
     //public Animator deadPlayerAnim;
     public bool playerSelectionInput = false;
 
@@ -32,6 +33,7 @@ public class PlayerController : MonoBehaviour
         if (isDefeated)
         {
             StartCoroutine(PlayerDefeated());
+            isDefeated = false;
         }
 
         if (Mathf.Round(timeRemaining) > 0)
@@ -93,16 +95,16 @@ public class PlayerController : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (player.tag == "Alive" && other.tag == "DeadZone" && isDefeated == false)
-        {
-            isDefeated = true;
-        }
-        else if (player.tag == "Dead" && other.tag == "AliveZone" && isDefeated == false)
-        {
-            isDefeated = true;
+        // if (player.tag == "Alive" && other.tag == "DeadZone" && isDefeated == false)
+        // {
+        //     isDefeated = true;
+        // }
+        // else if (player.tag == "Dead" && other.tag == "AliveZone" && isDefeated == false)
+        // {
+        //     isDefeated = true;
 
-        }
-        else if (player.tag == "Alive" || player.tag == "Dead")
+        // }
+        if (player.tag == "Alive" || player.tag == "Dead")
         {
             if (other.tag == "FastTile")
             {
@@ -115,11 +117,30 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    void OnTriggerStay(Collider other)
+    {
+        if (player.tag == "Alive" && other.tag == "DeadZone")
+        {
+            deathTileTimer -= Time.deltaTime;
+        }
+        else if (player.tag == "Dead" && other.tag == "AliveZone")
+        {
+            deathTileTimer -= Time.deltaTime;
+
+        }
+
+        if (deathTileTimer <= 0)
+        {
+            isDefeated = true;
+        }
+    }
+
 
     private void OnTriggerExit(Collider other)
     {
         if (player.tag == "Alive" || player.tag == "Dead")
         {
+            deathTileTimer = .2f;
             if (other.tag == "FastTile" || other.tag == "SlowTile")
             {
                 speed = 5;
@@ -130,9 +151,9 @@ public class PlayerController : MonoBehaviour
     {
         FindObjectOfType<AudioManager>().Play("Def");
         speed = 0;
-        isDefeated = false;
         yield return new WaitForSeconds(1f);
-        gameObject.transform.position = respawnPoints[Random.Range(0, respawnPoints.Length)].position;
+        // gameObject.transform.position = respawnPoints[Random.Range(0, respawnPoints.Length)].position;
+        gameObject.transform.position = gameObject.GetComponent<PlayerDetails>().startPos;
         speed = 5;
 
     }
