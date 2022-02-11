@@ -18,7 +18,7 @@ public class MatchConfig : MonoBehaviour
     public GameObject returnButton;
     public bool matchConfigA = false;
     public bool matchConfigB = false;
-
+    public AudioSource sound;
     public Text timerText;
     public GameObject timerUI;
 
@@ -224,6 +224,7 @@ public class MatchConfig : MonoBehaviour
         winText.text = "Player " + playerNumber + " wins";
         Time.timeScale = 0f;
         returnButton.SetActive(true);
+        sound.Play();
     }
 
 }
