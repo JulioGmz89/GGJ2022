@@ -26,6 +26,8 @@ public class SelectionArea : MonoBehaviour
     public bool timeConfig;
     public bool scoreConfig;
 
+    public GameObject maxScore, timeLimit;
+
     private void Awake()
     {
         controls = new Controls();
@@ -51,12 +53,16 @@ public class SelectionArea : MonoBehaviour
         {
             if (gameSelectionIndex == 1)
             {
+                timeLimit.SetActive(true);
+                maxScore.SetActive(false);
                 gameModeConfig.transform.GetChild(0).gameObject.SetActive(true);
                 gameModeConfig.transform.GetChild(1).gameObject.SetActive(false);
                 gameSelectionIndex = 0;
             }
             else
             {
+                timeLimit.SetActive(false);
+                maxScore.SetActive(true);
                 gameModeConfig.transform.GetChild(1).gameObject.SetActive(true);
                 gameModeConfig.transform.GetChild(0).gameObject.SetActive(false);
                 gameSelectionIndex += 1;

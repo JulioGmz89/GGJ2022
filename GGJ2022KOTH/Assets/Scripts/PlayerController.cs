@@ -149,9 +149,12 @@ public class PlayerController : MonoBehaviour
     }
     IEnumerator PlayerDefeated()
     {
+        catAnim.SetBool("isDead", true);
         FindObjectOfType<AudioManager>().Play("Def");
         speed = 0;
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.01f);
+        catAnim.SetBool("isDead", false);
+        yield return new WaitForSeconds(0.99f);
         // gameObject.transform.position = respawnPoints[Random.Range(0, respawnPoints.Length)].position;
         gameObject.transform.position = gameObject.GetComponent<PlayerDetails>().startPos;
         speed = 5;

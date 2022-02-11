@@ -128,6 +128,7 @@ public class PlayerInputManagerScript : MonoBehaviour
                 players[i].transform.position = startPos;
                 players[i].GetComponent<PlayerController>().speed = 5;
                 players[i].GetComponent<PlayerController>().StartCoroutine("CatsTextures");
+
             }
         }
     }

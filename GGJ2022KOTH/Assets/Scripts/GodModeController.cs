@@ -26,8 +26,10 @@ public class GodModeController : MonoBehaviour
     public float StopRumble;
     public GameObject throneDecoy;
     public GameObject godDecoy;
+    public GameObject rayDecoy;
     public Animator throneAnimator;
     public GameObject godMainMesh;
+    public GameObject throneMainMesh;
 
     private void Start()
     {
@@ -92,30 +94,38 @@ public class GodModeController : MonoBehaviour
         //Empieza la animacion de disparo
         godDecoy.SetActive(true);
         throneDecoy.SetActive(true);
+        rayDecoy.SetActive(true);
         godMainMesh.SetActive(false);
         throneAnimator.SetBool("Fire", true);
         //Timer en lo que castea el disparo
         yield return new WaitForSeconds(2f);
         //Disparo
-        GameObject ray = Instantiate(rayPrefab, firePoint.position, firePoint.rotation);
-        ray.SetActive(true);
+        //GameObject ray = Instantiate(rayPrefab, firePoint.position, firePoint.rotation);
+        //ray.SetActive(true);
         //Bug de screen Shake muy largo
         source = GetComponent<Cinemachine.CinemachineImpulseSource>();
         source.GenerateImpulse(Camera.main.transform.forward);
         Gamepad.current.SetMotorSpeeds(LowRumble, HighRumble);
+        rayDecoy.GetComponent<Collider>().enabled = true;
         player.GetComponent<PlayerController>().speed = 0;
         reticle.GetComponent<ReticleController>().speed = 0;
+        Vector3 relativePos = reticle.transform.position - transform.position;
+        Quaternion rotation = Quaternion.LookRotation(relativePos, Vector3.up);
+        throneMainMesh.transform.rotation = rotation;
         yield return new WaitForSeconds(StopRumble);
         Gamepad.current.SetMotorSpeeds(0, 0);
         //Tiempo para que termine la animacion
         yield return new WaitForSeconds(1.25f);
         player.GetComponent<PlayerController>().speed = 5;
+        rayDecoy.GetComponent<Collider>().enabled = false;
         reticle.GetComponent<ReticleController>().speed = 15;
+        throneMainMesh.transform.rotation = Quaternion.Euler(0, -90, 0);
         //Fin de la animacion
         godDecoy.SetActive(false);
         throneAnimator.SetBool("Fire", false);
         throneDecoy.SetActive(false);
         godMainMesh.SetActive(true);
+        rayDecoy.SetActive(false);
         //yield return new WaitForSeconds(1.5f);
 
     }

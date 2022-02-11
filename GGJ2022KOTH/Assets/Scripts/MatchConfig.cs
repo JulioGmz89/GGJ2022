@@ -22,6 +22,14 @@ public class MatchConfig : MonoBehaviour
     public Text timerText;
     public GameObject timerUI;
 
+    public Text matchText;
+    public GameObject matchUI;
+
+    public GameObject score50, score100, score150;
+    public GameObject time60, time90, time120, time150;
+
+    public GameObject winScreen1, winScreen2, winScreen3, winScreen4;
+
     private void Start()
     {
         pim = gameObject.GetComponent<PlayerInputManagerScript>();
@@ -38,8 +46,13 @@ public class MatchConfig : MonoBehaviour
         {
             Time.timeScale = 1f;
             timerUI.SetActive(false);
+            matchUI.SetActive(false);
             returnButton.SetActive(false);
             playerWinText.SetActive(false);
+            winScreen1.SetActive(false);
+            winScreen2.SetActive(false);
+            winScreen3.SetActive(false);
+            winScreen4.SetActive(false);
             matchTime = 50;
             matchConfigA = false;
             matchConfigB = false;
@@ -76,6 +89,8 @@ public class MatchConfig : MonoBehaviour
         }
         if (matchConfigB)
         {
+            matchUI.SetActive(true);
+            matchText.text = matchScore.ToString("0");
             for (int i = 0; i < pim.players.Count; i++)
             {
                 if (Mathf.Round(pim.players[i].GetComponent<PlayerDetails>().score) == matchScore)
@@ -84,8 +99,55 @@ public class MatchConfig : MonoBehaviour
                 }
             }
         }
-        Debug.Log(GameObject.FindGameObjectWithTag("TimeConfig"));
-        Debug.Log(GameObject.FindGameObjectWithTag("ScoreConfig"));
+        if (matchScore == 50)
+        {
+            score50.SetActive(true);
+            score100.SetActive(false);
+            score150.SetActive(false);
+        }
+        else if (matchScore == 100)
+        {
+            score50.SetActive(false);
+            score100.SetActive(true);
+            score150.SetActive(false);
+        }
+        else if (matchScore == 150)
+        {
+            score50.SetActive(false);
+            score100.SetActive(false);
+            score150.SetActive(true);
+        }
+
+        if (matchTime == 60)
+        {
+            time60.SetActive(true);
+            time90.SetActive(false);
+            time120.SetActive(false);
+            time150.SetActive(false);
+        }
+        else if (matchTime == 90)
+        {
+            time60.SetActive(false);
+            time90.SetActive(true);
+            time120.SetActive(false);
+            time150.SetActive(false);
+        }
+        else if (matchTime == 120)
+        {
+            time60.SetActive(false);
+            time90.SetActive(false);
+            time120.SetActive(true);
+            time150.SetActive(false);
+        }
+        else if (matchTime == 150)
+        {
+            time60.SetActive(false);
+            time90.SetActive(false);
+            time120.SetActive(false);
+            time150.SetActive(true);
+        }
+
+
     }
     public void TimeConfig()
     {
@@ -143,6 +205,22 @@ public class MatchConfig : MonoBehaviour
     public void PlayerWin(int playerNumber)
     {
         playerWinText.SetActive(true);
+        if (playerNumber == 1)
+        {
+            winScreen1.SetActive(true);
+        }
+        else if (playerNumber == 2)
+        {
+            winScreen2.SetActive(true);
+        }
+        else if (playerNumber == 3)
+        {
+            winScreen3.SetActive(true);
+        }
+        else if (playerNumber == 4)
+        {
+            winScreen4.SetActive(true);
+        }
         winText.text = "Player " + playerNumber + " wins";
         Time.timeScale = 0f;
         returnButton.SetActive(true);
